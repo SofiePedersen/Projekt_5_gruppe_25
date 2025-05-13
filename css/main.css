@@ -11,7 +11,43 @@
 /***********************************/
 
 /* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h3{
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p{
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.citat {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
 
 /* UNIVERSAL */
 *{
