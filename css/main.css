@@ -1,4 +1,19 @@
-/* UNIVERSAL*/
+/****** COLORS **********************/
+/*
+/* dusty_green: #465048;
+/*
+/* gold: #C0B283;
+/*
+/* cream: #F8EFE2;
+/*
+/* Bisque: ##F1EDE6;
+/*
+/***********************************/
+
+/* FONTS */
+
+
+/* UNIVERSAL */
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +23,15 @@
 header {
     width: 100%;
     height: 80px;
-    background-color: red;
+    background-color: #465048;
 
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 30px;
 }
+
+.header__logo-type {
+    width: 130px;
+}
+
