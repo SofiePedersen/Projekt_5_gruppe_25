@@ -49,6 +49,13 @@ p{
     font-size: 18px;
 }
 
+.FAQ {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 /* UNIVERSAL */
 *{
     margin: 0;
@@ -71,3 +78,49 @@ header {
     width: 130px;
 }
 
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-size: 60px;
+    }
+    
+    h2 {
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: 30px;
+    }
+    
+    h3{
+      font-family: "Montserrat", Arial, Helvetica, sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-size: 25px;
+    }
+    
+    p{
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 22px;
+    }
+    
+    .citat {
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 18px;
+    }
+    
+    .FAQ {
+        font-family: "Inter", Arial, Helvetica, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 22px;
+    }    
+}
+
+@media only screen and (min-width: 1240px) {}
