@@ -144,16 +144,37 @@ header {
     background-color: aqua;
 }
 
+.section-3__popular-categories__titles {
+    margin-bottom: 25px;
+}
+
 .section-3__popular-categories__heading {
     margin-bottom: 5px;
 }
 
-.section-3__popular-categories__links {}
+.section-3__popular-categories__links {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-.section-3__popular-categories__link-cards {}
+.section-3__popular-categories__link-cards {
+    background-color: purple;
+    width: 30%;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .section-3__popular-categories__link-cards--individuals {
     background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50000px;
 }
 
 /* MEDIA QUERY */
