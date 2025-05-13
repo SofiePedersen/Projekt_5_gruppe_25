@@ -42,6 +42,7 @@ p{
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 18px;
+    line-height: 24px;
     color: #465048;
 }
 
@@ -117,7 +118,6 @@ header {
 /* SECTION 2 - INFO CARD */
 
 .section-2__info-box {
-    background-color: aqua;
     padding: 20% 7%;
 }
 
@@ -126,6 +126,26 @@ header {
     padding: 7%;
     border: 3px solid #C0B283;
     border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-2__info-box__heading {
+    margin-bottom: 5px;
+}
+
+.section-2__info-box__subheading {
+    margin-bottom: 30px;
+}
+
+/* SECTION-3 - POPULAR CATEGORIES */
+
+.section-3__popular-categories {
+    padding: 0% 7% 20% 7%;
+    background-color: aqua;
+}
+
+.section-3__popular-categories__heading {
+    margin-bottom: 5px;
 }
 
 /* MEDIA QUERY */
