@@ -67,6 +67,9 @@ body {
     background-color: #F1EDE6;
 }
 
+/* EVERYTHING THAT LEADS TO A NEW SITE WILL BE MADE AN ANCHOR-TAG, */
+/* IF YOU NEED SOMETHING TO HAPPEN ON CURRENT SITE, USE A BUTTON-TAG */
+
 .cta-btn {
     width: 170px;
     height: 50px;
