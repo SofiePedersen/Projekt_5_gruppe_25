@@ -148,6 +148,14 @@ header {
     margin-bottom: 5px;
 }
 
+.section-3__popular-categories__links {}
+
+.section-3__popular-categories__link-cards {}
+
+.section-3__popular-categories__link-cards--individuals {
+    background-color: red;
+}
+
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 768px) {
