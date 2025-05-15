@@ -195,20 +195,29 @@ header {
 .section-4__design-din-kurv {}
 
 .section-4__design-din-kurv__background-image {
-    background-color: brown;
+    background-color: red;
+    height: 600px;
+
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20%;
 }
 
 .section-4__design-din-kurv__info-box {
     background-color: #F1EDE6;
-    border: 3px solid #C0B283;
     
+    border: 3px solid #C0B283;
     border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
     border-left: none;
     display: flex;
     align-items: center;
     
     width: 80%;
     height: 120px;
+    padding-left: 8%;
 }
 
 .section-4__design-din-kurv__info-box__titles {
