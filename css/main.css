@@ -127,15 +127,18 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.section-2__info-box__heading {
+.section-2__info-box__heading,
+.section-5__info-box__heading {
     margin-bottom: 5px;
 }
 
-.section-2__info-box__subheading {
+.section-2__info-box__subheading,
+.section-5__info-box__subheading {
     margin-bottom: 30px;
 }
 
-.section-2__info-box__text:first-of-type {
+.section-2__info-box__text:first-of-type,
+.section-5__info-box__text {
     margin-bottom: 30px;
 }
 
@@ -261,10 +264,22 @@ header {
 .section-5__info-box__image-box {
     background-color: red;
     height: 300px;
+
+}
+
+.section-5__info-box__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .section-5__info-box__info {
     padding: 7%;
+}
+
+.section-5__info-box__info a {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* MEDIA QUERY */
