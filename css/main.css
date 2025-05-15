@@ -215,22 +215,24 @@ header {
     display: flex;
     align-items: center;
     
-    width: 80%;
-    height: 110px;
-    padding-left: 6.3%;
+    width: 90%;
+    height: 120px;
+    padding: 5%;
 }
 
 .section-4__design-din-kurv__info-box__titles {
     color: #465048;
+    margin-right: 5%;
 }
 
 .section-4__design-din-kurv__info-box__triangle{
     width: 20px;
     height: 20px;
-    rotate: 90px;
+    rotate: 90deg;
+
     border-left: 20px solid transparent;
     border-right: 20px solid transparent; 
-    border-bottom: 20px solid #C0B283;
+    border-bottom: 25px solid #C0B283;
 }
 
 .section-4__design-din-kurv__info-box__titles h2 {
