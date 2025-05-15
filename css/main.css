@@ -192,8 +192,6 @@ header {
 
 /* SECTION 5 - BYG DIN EGEN GAVEKURV */
 
-.section-4__design-din-kurv {}
-
 .section-4__design-din-kurv__background-image {
     background-color: red;
     height: 600px;
@@ -238,8 +236,6 @@ header {
 .section-4__design-din-kurv__info-box__titles h2 {
     margin-bottom: 5px;
 }
-
-.section-4__design-din-kurv__info-box__arrow {}
 
 
 
