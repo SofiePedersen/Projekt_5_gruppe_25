@@ -194,11 +194,30 @@ header {
 
 .section-4__design-din-kurv {}
 
-.section-4__design-din-kurv__background-image {}
+.section-4__design-din-kurv__background-image {
+    background-color: brown;
+}
 
-.section-4__design-din-kurv__info-box {}
+.section-4__design-din-kurv__info-box {
+    background-color: #F1EDE6;
+    border: 3px solid #C0B283;
+    
+    border-radius: 7px;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    
+    width: 80%;
+    height: 120px;
+}
 
-.section-4__design-din-kurv__info-box__titles {}
+.section-4__design-din-kurv__info-box__titles {
+    color: #465048;
+}
+
+.section-4__design-din-kurv__info-box__titles h2 {
+    margin-bottom: 5px;
+}
 
 .section-4__design-din-kurv__info-box__arrow {}
 
