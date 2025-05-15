@@ -135,6 +135,10 @@ header {
     margin-bottom: 30px;
 }
 
+.section-2__info-box__text:first-of-type {
+    margin-bottom: 30px;
+}
+
 /* SECTION-3 - POPULAR CATEGORIES */
 
 .section-3__popular-categories {
@@ -237,8 +241,31 @@ header {
     margin-bottom: 5px;
 }
 
+/* SECTION 5 - INFO BOX */
 
+.section-5__info-box__image {
+    width: 20%;
+}
 
+.section-5__info-box {
+    padding: 20% 7%;
+}
+
+.section-5__info-box__card {
+    background-color: #fff;
+    border: 3px solid #C0B283;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-5__info-box__image-box {
+    background-color: red;
+    height: 300px;
+}
+
+.section-5__info-box__info {
+    padding: 7%;
+}
 
 /* MEDIA QUERY */
 
