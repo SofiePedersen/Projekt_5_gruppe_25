@@ -112,7 +112,43 @@ header {
     background-color: red;
     height: 600px;
 }
+.slide__box {
+    display: none;
+}
 
+.slidebox .one {
+    background-image: url(produktbilleder/aida_hvid.webp);
+}
+
+.slidebox .two {
+    background-image: url(produktbilleder/aida_sand.webp);
+}
+
+.slidebox .three {
+    background-image: url(produktbilleder/aida_sort.webp);
+}
+
+.prev, .next {
+    display: none;
+}
+
+.dot__container {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: black;
+}
 /* SECTION 2 - INFO CARD */
 
 .section-2__info-box {

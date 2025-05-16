@@ -1,91 +1,32 @@
-/* SEKTION - Alberte, slide show, START */ 
+// SEKTION - Alberte, slide show, START // 
+let slideIndex = 1;
+showSlides (slideIndex);
 
-//Manuelt slideshow - swipe funktion
-let manualSlideIndex = 1;
-let startX = 0; 
-let endX = 0;
-let minSwipeDistance = 50;
-showSlidesManual (manualSlideIndex);
-
-//Swipe funktion
-document.querySelector ('.section-1__slideshow"').addEventListener('touchstart', function (e) {
-    startX = e.touches[0].clientX;
-});
-
-document.querySelector('.section-1__slideshow"').addEventListener('touchend', function (e) {
-    endX = e.changedTouches[0].clientX;
-    handleSwipe();
-});
-
-function handleSwipe() {
-    if (startX - endX > minSwipeDistance) {
-        //swipe til venstre - næste
-        manualSlideIndex++;
-        if (manualSlideIndex > document.getElementsByClassName('slide__box').length) {
-            manualSlideIndex = 1; //hvis sidste slide, gå tilbage til første
-        }
-    } else if (endX - startX > minSwipeDistance) {
-        //swipe til højre - forrige
-        manualSlideIndex--;
-        if (manualSlideIndex < 1) {
-            manualSlideIndex = document.getElementsByClassName ('slide__box').length;
-        }
-    }
-    showSlidesManual (manualSlideIndex);
+// prev og next kontrol
+function plusSlides (n) {
+    showSlides (slideIndex += n);
 }
 
-//Klik på thumbnail
 function currentSlide (n) {
-    manualSlideIndex = n;
-    showSlidesManual (manualSlideIndex);
-    highlightThumbnail (n);
-
-    stopAutoSlides ();
+    showSlides (slideIndex = n);
 }
 
-function showSlidesManual (n) {
-    let slides = document.getElementsByClassName ("slide__box");
-    let dots =document.getElementsByClassName ("dot");
-    
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].classList.remove ("active");
-    }
-
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].classList.remove ("active");
-    }
-
-    slides[n - 1].classList.add("active");
-
-    dots[n - 1].classList.add("active");
-}
-
-//Automatisk slideshow
-let autoSlideIndex = 0;
-showSlidesAuto ();
-
-function showSlidesAuto() {
+function showSlides (n) {
+    let i;
     let slides = document.getElementsByClassName ("slide__box");
     let dots = document.getElementsByClassName ("dot");
-    
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].classList.remove ("active");
+
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace (" active", "");
+    };
 
-    autoSlideIndex++;
-    if (autoSlideIndex > slides.length) {autoSlideIndex = 1;}
-    
-    slides[autoSlideIndex - 1].classList.add("active");
-
-    for (let i = 0; i < dots.length; i++){
-        dots[i].classList.remove ("active");
-    }
-
-    dots[autoSlideIndex - 1].classList.add ("active");
-
-    highlightThumbnail(autoSlideIndex);
-    
-    setTimeout (showSlidesAuto, 10000);
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
 }
 
 // Alberte's Javascript - SLUT
