@@ -116,18 +116,28 @@ header {
     display: none;
 }
 
+.slide__box--text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 7%;
+    text-align: left;
+    justify-content: center;
+    height: 100%;
+}
 .slide__box.one {
     background-image: url('../product_images/aida_hvid.webp');
     height: 600px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: block;
 }
 
 .slide__box.two {
     background-image: url('../product_images/aida_sort.webp');
     height: 600px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,6 +146,7 @@ header {
 .slide__box.three {
     background-image: url('../product_images/aida_sort_lang.webp');
     height: 600px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
