@@ -116,16 +116,28 @@ header {
     display: none;
 }
 
-.slidebox .one {
-    background-image: url(produktbilleder/aida_hvid.webp);
+.slide__box.one {
+    background-image: url('produktbilleder/aida_hvid.webp');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.slidebox .two {
+.slide__box.two {
     background-image: url(produktbilleder/aida_sand.webp);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.slidebox .three {
+.slide__box.three {
     background-image: url(produktbilleder/aida_sort.webp);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .prev, .next {
