@@ -8,11 +8,11 @@ let minSwipeDistance = 50;
 showSlidesManual (manualSlideIndex);
 
 //Swipe funktion
-document.querySelector ('.section-4').addEventListener('touchstart', function (e) {
+document.querySelector ('.section-1__slideshow"').addEventListener('touchstart', function (e) {
     startX = e.touches[0].clientX;
 });
 
-document.querySelector('.section-4').addEventListener('touchend', function (e) {
+document.querySelector('.section-1__slideshow"').addEventListener('touchend', function (e) {
     endX = e.changedTouches[0].clientX;
     handleSwipe();
 });
@@ -21,14 +21,14 @@ function handleSwipe() {
     if (startX - endX > minSwipeDistance) {
         //swipe til venstre - næste
         manualSlideIndex++;
-        if (manualSlideIndex > document.getElementsByClassName('slide-box').length) {
+        if (manualSlideIndex > document.getElementsByClassName('slide__box').length) {
             manualSlideIndex = 1; //hvis sidste slide, gå tilbage til første
         }
     } else if (endX - startX > minSwipeDistance) {
         //swipe til højre - forrige
         manualSlideIndex--;
         if (manualSlideIndex < 1) {
-            manualSlideIndex = document.getElementsByClassName ('slide-box').length;
+            manualSlideIndex = document.getElementsByClassName ('slide__box').length;
         }
     }
     showSlidesManual (manualSlideIndex);
@@ -44,7 +44,7 @@ function currentSlide (n) {
 }
 
 function showSlidesManual (n) {
-    let slides = document.getElementsByClassName ("slide-box");
+    let slides = document.getElementsByClassName ("slide__box");
     let dots =document.getElementsByClassName ("dot");
     
     for (let i = 0; i < slides.length; i++) {
@@ -65,7 +65,7 @@ let autoSlideIndex = 0;
 showSlidesAuto ();
 
 function showSlidesAuto() {
-    let slides = document.getElementsByClassName ("slide-box");
+    let slides = document.getElementsByClassName ("slide__box");
     let dots = document.getElementsByClassName ("dot");
     
     for (let i = 0; i < slides.length; i++) {
