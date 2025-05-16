@@ -152,7 +152,7 @@ header {
 }
 
 .slide__box.three {
-    background-image: url('../product_images/aida_sort_lang.webp');
+    background-image: url('../generated_images/godte_lille.jpg');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -160,6 +160,13 @@ header {
     background-repeat: no-repeat;
 }
 
+.slide__box.three h1 {
+    color: #F1EDE6;
+}
+
+.slide__box.three h2 {
+    color: #F1EDE6;
+}
 .prev, .next {
     display: none;
 }
@@ -432,4 +439,30 @@ header {
     }    
 }
 
-@media only screen and (min-width: 1240px) {}
+@media only screen and (min-width: 1240px) {
+    /* SECTION 1 - HERO SLIDESHOW */
+    .section-1__slideshow {
+    height: 500px;
+    }
+
+    .slide__box.one {
+        height: 500px;
+    }
+
+    .slide__box.two {
+        height: 500px;
+    }
+
+    .slide__box.three {
+        height: 500px;
+    }
+
+    .dot__container {
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 7%;
+        left: 47%;
+    }
+
+}
