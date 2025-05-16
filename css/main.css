@@ -126,7 +126,7 @@ header {
     height: 100%;
 }
 .slide__box.one {
-    background-image: url('../product_images/aida_hvid.webp');
+    background-image: url('../images/DSC08669-2.jpg');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -134,8 +134,15 @@ header {
     background-repeat: no-repeat;
 }
 
+.slide__box.one h1 {
+    color: #F1EDE6;
+}
+
+.slide__box.one h2 {
+    color: #F1EDE6;
+}
 .slide__box.two {
-    background-image: url('../product_images/aida_sort.webp');
+    background-image: url('../images/DSC08690-3.jpg');
     height: 600px;
     width: 100%;
     background-size: cover;

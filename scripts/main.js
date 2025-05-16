@@ -11,6 +11,7 @@ function currentSlide (n) {
     showSlides (slideIndex = n);
 }
 
+// array
 function showSlides (n) {
     let i;
     let slides = document.getElementsByClassName ("slide__box");
@@ -28,5 +29,10 @@ function showSlides (n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+// automatisk slide
+setInterval(function() {
+    plusSlides (1);
+}, 5000);
 
 // Alberte's Javascript - SLUT
