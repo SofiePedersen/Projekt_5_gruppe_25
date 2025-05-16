@@ -1,4 +1,4 @@
-// SEKTION - Alberte, slide show, START // 
+// SEKTION - Alberte, slide show, START
 let slideIndex = 1;
 showSlides (slideIndex);
 

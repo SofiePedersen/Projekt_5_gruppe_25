@@ -117,15 +117,16 @@ header {
 }
 
 .slide__box.one {
-    background-image: url('produktbilleder/aida_hvid.webp');
+    background-image: url('../product_images/aida_hvid.webp');
     height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: block;
 }
 
 .slide__box.two {
-    background-image: url(produktbilleder/aida_sand.webp);
+    background-image: url('../product_images/aida_sort.webp');
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -133,7 +134,7 @@ header {
 }
 
 .slide__box.three {
-    background-image: url(produktbilleder/aida_sort.webp);
+    background-image: url('../product_images/aida_sort_lang.webp');
     height: 600px;
     background-size: cover;
     background-position: center;
