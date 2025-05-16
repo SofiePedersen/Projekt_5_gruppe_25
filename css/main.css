@@ -109,8 +109,8 @@ header {
 /* SECTION 1 - HERO SLIDESHOW */
 
 .section-1__slideshow {
-    background-color: red;
     height: 600px;
+    position: relative;
 }
 .slide__box {
     display: none;
@@ -159,19 +159,23 @@ header {
 .dot__container {
     text-align: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
+    bottom: 7%;
+    left: 43%;
 }
 .dot {
-    height: 15px;
-    width: 15px;
+    height: 24px;
+    width: 24px;
     margin: 0 2px;
-    background-color: aquamarine;
+    background-color: #F1EDE6;
     border-radius: 50%;
     display: inline-block;
+    border: 2px solid #C0B283;
 }
 
 .dot.active {
-    background-color: black;
+    background-color: #465048;
+    border: 2px solid #C0B283;
 }
 /* SECTION 2 - INFO CARD */
 
