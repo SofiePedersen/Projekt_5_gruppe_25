@@ -1,5 +1,8 @@
 // SEKTION - Alberte, slide show, START
 let slideIndex = 1;
+let autoSlideInterval;
+let isPlaying = true;
+
 showSlides (slideIndex);
 
 // prev og next kontrol
@@ -19,6 +22,7 @@ function showSlides (n) {
 
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
+
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -30,9 +34,30 @@ function showSlides (n) {
     dots[slideIndex - 1].className += " active";
 }
 
-// automatisk slide
-setInterval(function() {
-    plusSlides (1);
-}, 5000);
+// start automatisk slide
+function startAutoSlide () {
+    autoSlideInterval = setInterval(function() {
+        plusSlides (1);
+    }, 5000);
+}
+// stop automatisk slide
+function stopAutoSlide () {
+    clearInterval(autoSlideInterval);
+}
+
+// pauseknap 
+document.getElementById("slideshowPause").addEventListener("click", function(){
+    if (isPlaying) {
+        stopAutoSlide();
+        this.textContent = "▶";
+    } else {
+        startAutoSlide();
+        this.textContent = "⏸";
+    }
+
+    isPlaying = !isPlaying
+});
+
+startAutoSlide();
 
 // Alberte's Javascript - SLUT

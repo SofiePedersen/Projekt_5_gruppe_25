@@ -111,6 +111,7 @@ header {
 .section-1__slideshow {
     height: 600px;
     position: relative;
+    overflow: hidden;
 }
 .slide__box {
     display: none;
@@ -184,6 +185,21 @@ header {
     background-color: #465048;
     border: 2px solid #C0B283;
 }
+
+.pause-btn {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: 10;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #465048;
+    color: #C0B283;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 /* SECTION 2 - INFO CARD */
 
 .section-2__info-box {
