@@ -401,18 +401,27 @@ header {
 
 /* SECTION 7 - REVIEWS */
 
-.section-7__review {
-     padding: 0% 7% 20% 7%;
+.section-7__review-wrapper {
+     padding: 0% 7% 0% 7%;
 }
 
 .section-7__review__overflow-box {
     width: 100%;
-    overflow-x: hidden;
+    height: 350px;
+    padding: 0% 7%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+
+    overflow-y: auto;
+    scroll-snap-align: start;
 }
 
 .section-7__review__card {
     width: 350px;
     padding: 7%;
+    flex: 0 0 auto;
 
     border-radius: 7px;
     border: 3px solid #C0B283;
