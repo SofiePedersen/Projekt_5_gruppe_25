@@ -401,6 +401,10 @@ header {
 
 /* SECTION 7 - REVIEWS */
 
+.section-7__review {
+    padding-bottom: 20%;
+}
+
 .section-7__review-wrapper {
      padding: 0% 7% 0% 7%;
 }
@@ -415,7 +419,20 @@ header {
     gap: 7%;
 
     overflow-y: auto;
-    scroll-snap-align: start;
+
+    /* Below this comment you will see how we hide our scrollbar
+    on the review-cards*/
+    
+    /* Firefox */
+    scrollbar-width: none;
+
+    /* Internet Explorer 10+ */
+    -ms-overflow-style: none;     
+}
+
+/* Hiding scrollbar on Chrome, Safari and Opera */
+.section-7__review__overflow-box::-webkit-scrollbar {
+  display: none;
 }
 
 .section-7__review__card {
