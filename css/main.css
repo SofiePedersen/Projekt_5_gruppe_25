@@ -225,14 +225,16 @@ header {
 .section-2__info-box__heading,
 .section-5__info-box__heading,
 .section-6__info-box__heading,
-.section-7__review__heading {
+.section-7__review__heading,
+.section-8__FAQ__heading {
     margin-bottom: 5px;
 }
 
 .section-2__info-box__subheading,
 .section-5__info-box__subheading,
 .section-6__info-box__subheading,
-.section-7__review__subheading {
+.section-7__review__subheading,
+.section-8__FAQ__subheading {
     margin-bottom: 30px;
 }
 
@@ -401,17 +403,13 @@ header {
 
 /* SECTION 7 - REVIEWS */
 
-.section-7__review {
-    padding-bottom: 20%;
-}
-
 .section-7__review-wrapper {
      padding: 0% 7% 0% 7%;
 }
 
 .section-7__review__overflow-box {
     width: 100%;
-    height: 350px;
+    height: 380px;
     padding: 0% 7%;
 
     display: flex;
@@ -437,6 +435,7 @@ header {
 
 .section-7__review__card {
     width: 350px;
+    height: 350px;
     padding: 7%;
     flex: 0 0 auto;
 
@@ -466,6 +465,10 @@ header {
     margin-bottom: 7%;
     margin-top: 7%;
 }
+
+/* FAQ */
+
+
 
 /* MEDIA QUERY */
 
