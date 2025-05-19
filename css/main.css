@@ -520,6 +520,39 @@ header {
     }    
 }
 
+@media only screen and (min-width: 768px) {
+/* SECTION-3 - POPULAR CATEGORIES */
+.section-3__popular-categories {
+    padding: 0% 7% 7% 7%;
+}
+.section-3__popular-categories__links {
+    gap: 20px;
+}
+.section-3__popular-categories__link-cards {
+    width: 14%;
+    gap: 10%;
+}
+
+.section-3__popular-categories__link-cards--individuals {
+    margin-bottom: 7%;
+}
+
+/* SECTION 5 - BYG DIN EGEN GAVEKURV */
+
+.section-4__design-din-kurv__background-image {
+    background-image: url('../images/design_din_egen.webp');
+    height: 750px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20%;
+
+}
+
+}
 @media only screen and (min-width: 1240px) {
     /* SECTION 1 - HERO SLIDESHOW */
     .section-1__slideshow {

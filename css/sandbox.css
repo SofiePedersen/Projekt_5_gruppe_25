@@ -76,9 +76,8 @@
 
     /* PRODUCTS - FARS DAG */
 .section-7__farsdag-wrapper {
-     padding: 0% 7% 7% 7%;
+     padding: 5% 7% 3% 7%;
 }
-
 .section-7__farsdag__overflow-box {
     width: 100%;
     height: 450px;
@@ -99,6 +98,7 @@
     /* Internet Explorer 10+ */
     -ms-overflow-style: none;     
 }
+
 
 /* Hiding scrollbar on Chrome, Safari and Opera */
 .section-7__farsdag__overflow-box::-webkit-scrollbar {
@@ -133,7 +133,6 @@
     object-fit: cover;
     display: block;
 }
-
 .section-7__farsdag__text {
     padding-left: 25px;
 }
@@ -141,9 +140,8 @@
 
 /*BRANDS*/
 .section-7__brands-wrapper {
-     padding: 0% 7% 7% 7%;
+     padding: 5% 7% 3% 7%;
 }
-
 .section-7__brands__overflow-box {
     width: 100%;
     height: 520px;
@@ -225,7 +223,7 @@
         display: none;
     }
     .section-6__info-box__info.about {
-        height: 250px;
+        height: 150px;
         background-image: url('../images/lys.webp');
         background-position: center;
         background-repeat: no-repeat;
@@ -280,6 +278,27 @@
     flex-direction: column;
     width: 60%;
     }
+
+/*PRODUCTS*/
+    /*PRODUCTS - HERO*/
+        .section-6__info-box.products {
+        padding: 0 0 7% 0;
+        width: 100%;
+    }
+    .section-6__info-box__image-box.products {
+        display: none;
+    }
+    .section-6__info-box__info.products {
+        height: 150px;
+        background-image: url('../images/lys.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .section-6__info-box__heading.products {
+        justify-self: center;
+        align-self: center;
+    }
+
 }
 
 @media only screen and (min-width: 1240px) {
