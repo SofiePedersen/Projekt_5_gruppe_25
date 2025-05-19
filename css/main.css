@@ -581,4 +581,11 @@ header {
         left: 47%;
     }
 
+    .section-3__popular-categories {
+    padding: 0% 7% 7% 7%;
+}
+    .section-3__popular-categories__link-cards--individuals {
+    margin-bottom: 0%;
+    }
+
 }
