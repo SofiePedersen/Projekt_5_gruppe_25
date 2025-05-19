@@ -55,7 +55,7 @@ p, a{
     color: #465048;
 }
 
-.FAQ {
+.faq {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -471,7 +471,9 @@ header {
 
 /* FAQ */
 
-
+.section-8__FAQ {
+    
+}
 
 /* MEDIA QUERY */
 
