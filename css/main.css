@@ -127,7 +127,7 @@ header {
     height: 100%;
 }
 .slide__box.one {
-    background-image: url('../images/DSC08669-2.jpg');
+    background-image: url('../images/saebe.webp');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -143,7 +143,7 @@ header {
     color: #F1EDE6;
 }
 .slide__box.two {
-    background-image: url('../images/DSC08690-3.jpg');
+    background-image: url('../images/blomst.webp');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -152,7 +152,7 @@ header {
 }
 
 .slide__box.three {
-    background-image: url('../generated_images/godte_lille.jpg');
+    background-image: url('../generated_images/godte_lille.webp');
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -297,12 +297,16 @@ header {
 /* SECTION 5 - BYG DIN EGEN GAVEKURV */
 
 .section-4__design-din-kurv__background-image {
-    background-color: red;
+    background-image: url('../images/design_din_egen.webp');
     height: 750px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
 
     display: flex;
     align-items: flex-end;
     padding-bottom: 20%;
+
 }
 
 .section-4__design-din-kurv__info-box {
@@ -371,14 +375,14 @@ header {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     background-color: #465048;
-    background-image: url('../images/elefanto.jpg');
+    background-image: url('../images/farsdag.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .section-6__info-box__image-box {
-    background-image: url('../images/elefanto.jpg');
+    background-image: url('../generated_images/medarbejder_mellem.webp');
 }
 
 .section-5__info-box__info,
