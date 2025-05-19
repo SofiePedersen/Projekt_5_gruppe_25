@@ -73,7 +73,7 @@ p, a{
 /* IF YOU NEED SOMETHING TO HAPPEN ON CURRENT SITE, USE A BUTTON-TAG */
 
 .cta-btn {
-    width: 60%;
+    width: 50%;
     height: 50px;
     border-radius: 7px;
     background-color: #465048;
