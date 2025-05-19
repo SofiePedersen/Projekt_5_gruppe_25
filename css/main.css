@@ -43,6 +43,7 @@ p, a{
     font-weight: 300;
     font-size: 18px;
     color: #465048;
+    line-height: 24px;
 }
 
 .citat {
@@ -224,14 +225,16 @@ header {
 .section-2__info-box__heading,
 .section-5__info-box__heading,
 .section-6__info-box__heading,
-.section-7__review__heading {
+.section-7__review__heading,
+.section-8__FAQ__heading {
     margin-bottom: 5px;
 }
 
 .section-2__info-box__subheading,
 .section-5__info-box__subheading,
 .section-6__info-box__subheading,
-.section-7__review__subheading {
+.section-7__review__subheading,
+.section-8__FAQ__subheading {
     margin-bottom: 30px;
 }
 
@@ -400,40 +403,75 @@ header {
 
 /* SECTION 7 - REVIEWS */
 
-.section-7__review {
-     padding: 0% 7% 20% 7%;
+.section-7__review-wrapper {
+     padding: 0% 7% 0% 7%;
 }
 
 .section-7__review__overflow-box {
     width: 100%;
-    overflow-x: hidden;
+    height: 350px;
+    padding: 0% 7%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 7%;
+
+    overflow-y: auto;
+
+    /* Below this comment you will see how we hide our scrollbar
+    on the review-cards*/
+    
+    /* Firefox */
+    scrollbar-width: none;
+
+    /* Internet Explorer 10+ */
+    -ms-overflow-style: none;     
+}
+
+/* Hiding scrollbar on Chrome, Safari and Opera */
+.section-7__review__overflow-box::-webkit-scrollbar {
+  display: none;
 }
 
 .section-7__review__card {
-    width: 350px;
-    height: 350px;
-    background-color: red;
+    width: 330px;
+    height: 90%;
     padding: 25px;
+    flex: 0 0 auto;
+
+    border-radius: 7px;
+    border: 3px solid #C0B283;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .section-7__review__rating-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: yellowgreen;
-    padding: 25px 50px;
+    padding: 7% 14%;
 }
 
-.section-7__review__star{
-    background-color: aqua;
-    width: 30px;
-    height: 30px;
+.section-7__review__rating-box i {
+    color: #C0B283;
 }
+
+.section-7__review__text{
+    font-style: italic;
+    text-align: justify;
+}
+
 
 .section-7__review__text:first-of-type {
-    margin-bottom: 25px;
-    margin-top: 5px;
+    margin-bottom: 7%;
+    margin-top: 7%;
 }
+
+/* FAQ */
+
+
 
 /* MEDIA QUERY */
 
