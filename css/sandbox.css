@@ -1,23 +1,21 @@
+/*OM OS 1*/
 .section-6__info-box.about {
     padding: 10% 7%;
-
 }
 .section-6__info-box__card.about {
     background-color: #465048;
-
 }
 .section-6__info-box__image-box.about {
     background-image: url('../images/butik.webp');
 }
-
 .section-6__info-box__heading.about {
     color: #F1EDE6;
 }
-
 .section-2__info-box.about{
     padding: 10% 7%;
 }
 
+/*OM OS 2*/
 .section-5__info-box.about {
     padding: 10% 7%;
 }
@@ -44,11 +42,97 @@
     margin-top: 2%;
 }
 
+.section-5__info-box__list.about ul {
+    padding-left: 5%;
+} 
+
+/*OM OS 3*/
 .section-3__popular-categories__link-cards--individuals.lisbeth {
     width: 50%;
     justify-self: center;
     align-self: center;
     margin-top: 10%;
-    margin-bottom: 7%;
-    
+    margin-bottom: 7%; 
 }
+
+@media only screen and (min-width: 768px) {
+    /*OM OS 1*/
+    .section-6__info-box.about {
+        padding: 0%;
+        width: 100%;
+    }
+    .section-6__info-box__image-box.about {
+        display: none;
+    }
+    .section-6__info-box__info.about {
+        height: 250px;
+        background-image: url('../images/lys.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .section-6__info-box__heading.about {
+        justify-self: center;
+        align-self: center;
+    }
+
+    /*OM OS 2*/
+    .section-5__info-box.about {
+        padding-top: 0;
+    }
+    .section-5__info-box__card.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+    .section-5__info-box__image-box.about {
+    display: flex;
+    width: 40%;
+    height: 500px;
+    }
+    .section-5__info-box__info.about {
+        display: flex;
+        flex-direction: column;
+        padding: 0% 7%;
+        width: 60%;
+    }
+
+    /*OM OS 3*/
+    .section-6__info-box__card.lisbeth {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-3__popular-categories__link-cards--individuals.lisbeth {
+    display:flex;
+    width: 40%;
+    justify-self: center;
+    align-self: center;
+    margin-left: 7%;
+    border-radius: 5%;
+    aspect-ratio: 1 / 1.5;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    }
+    .section-6__info-box__info.lisbeth {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    }
+
+}
+
+@media only screen and (min-width: 1240px) {
+    .section-5__info-box__image-box.about {
+    width: 50%;
+    height: 500px;
+    }
+      .section-5__info-box__info.about {
+        width: 50%;
+    }
+    
+    .section-3__popular-categories__link-cards--individuals.lisbeth {
+        aspect-ratio: 1 / 1;
+        }
+    }
