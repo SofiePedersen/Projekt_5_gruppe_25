@@ -1,0 +1,54 @@
+.section-6__info-box.about {
+    padding: 10% 7%;
+
+}
+.section-6__info-box__card.about {
+    background-color: #465048;
+
+}
+.section-6__info-box__image-box.about {
+    background-image: url('../images/butik.webp');
+}
+
+.section-6__info-box__heading.about {
+    color: #F1EDE6;
+}
+
+.section-2__info-box.about{
+    padding: 10% 7%;
+}
+
+.section-5__info-box.about {
+    padding: 10% 7%;
+}
+.section-5__info-box__card.about {
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+.section-5__info-box__image-box.about {
+    border: 3px solid #C0B283;
+    border-radius: 7px;
+}
+.section-5__info-box__info.about {
+    padding: 5% 0%;
+}
+
+.section-5__info-box__list.about li {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 18px;
+    color: #465048;
+    padding: 1%;
+    margin-top: 2%;
+}
+
+.section-3__popular-categories__link-cards--individuals.lisbeth {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    
+}
