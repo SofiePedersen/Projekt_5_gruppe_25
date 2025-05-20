@@ -94,7 +94,6 @@ p, a{
 .cta-btn.hvid {
         color:#465048;
         background-color: #F1EDE6;
-
 }
 
 /* HEADER */
@@ -116,16 +115,31 @@ header {
 .header__search-bar {
     width: 100%;
     height: 45px;
-    background-color: #F1EDE6;
+    display: flex;
 }
 
 .header__search-bar__input {
+    background-color: #F1EDE6;
     height: 100%;
+    width: 78%;
     border: 2px solid #C0B283;
     border-left: none;
 }
 
+.header__search-bar__icon {
+    background-color: #F8EFE2;
+    border: 2px solid #C0B283;
+    border-left: none;
+    height: 100%;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.header__search-bar__icon i {
+    color: #C0B283;
+}
 
 /* SECTION 1 - HERO SLIDESHOW */
 
@@ -320,7 +334,7 @@ header {
     height: 100%;
 }
 
-/* SECTION 5 - BYG DIN EGEN GAVEKURV */
+/* SECTION 5 - BUILD YOUR GIFT BASKET */
 
 .section-4__design-din-kurv__background-image {
     background-image: url('../images/design_din_egen.webp');
@@ -584,6 +598,37 @@ header {
     margin-top: 10px;
 }
 
+/* FOOTER */
+
+.footer__top {
+    height: 150px;
+    background-color: #465048;
+    border-top: 2px solid #C0B283;
+    border-bottom: 2px solid #C0B283;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14%;
+}
+
+.footer__top__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.footer__top__icon-img {
+    width: 50px;
+}
+
+.footer__top__icon-text {
+    color: #F1EDE6;
+    margin-top: 15px;
+    font-size: 16px;
+}
 
 /* MEDIA QUERY */
 
