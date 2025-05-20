@@ -601,6 +601,7 @@ header {
 /* FOOTER */
 
 .footer__top {
+    padding: 7% 14%;
     height: 150px;
     background-color: #465048;
     border-top: 2px solid #C0B283;
@@ -609,7 +610,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 14%;
+    gap: 10%;
 }
 
 .footer__top__icon {
@@ -627,8 +628,46 @@ header {
 .footer__top__icon-text {
     color: #F1EDE6;
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
 }
+
+.footer__bottom {
+    padding: 7% 14%;
+    background-color: #465048;
+}
+
+.footer__bottom__info-box {
+    margin-bottom: 30px;
+}
+
+.footer__bottom__info-box li {
+    list-style-type: none;
+    margin-bottom: 2%;
+    
+}
+
+.footer__bottom__info-box li a,
+.footer__bottom__info-box li {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 16px;
+    color: #F1EDE6;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer__bottom__info-box li a:hover {
+    color: #C0B283;
+    text-decoration: underline;
+}
+
+.footer__bottom__text--bolder {
+    font-weight: 500;
+}
+
+
 
 /* MEDIA QUERY */
 
