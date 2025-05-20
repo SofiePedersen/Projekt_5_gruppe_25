@@ -514,6 +514,19 @@ header {
 
 /* SECTION 9 - NEWSLETTER */
 
+.section-9__newsletter {
+    padding: 0% 7% 20% 7%;
+}
+
+.section-9__newsletter__card {
+    background-color: #fff;
+    padding: 7%;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 768px) {
