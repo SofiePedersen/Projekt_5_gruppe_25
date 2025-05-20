@@ -91,6 +91,12 @@ p, a{
     text-align: center;
 }
 
+.cta-btn.hvid {
+        color:#465048;
+        background-color: #F1EDE6;
+
+}
+
 /* HEADER */
 
 header {

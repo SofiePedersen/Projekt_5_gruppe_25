@@ -99,6 +99,10 @@
     -ms-overflow-style: none;     
 }
 
+/*GIFT BASKETS*/
+    /* HERO */
+
+
 
 /* Hiding scrollbar on Chrome, Safari and Opera */
 .section-7__farsdag__overflow-box::-webkit-scrollbar {
@@ -211,6 +215,27 @@
     font-weight: 400;
 }
 
+/* GIFT BASKET */
+.section-6__info-box__image-box.gift-basket {
+    background-image: url('../images/gavekurv_design.webp');
+}
+
+.section-5__info-box__card.gift-basket {
+    background-color: #465048;
+    border: none;
+}
+.section-5__info-box__image-box.gift-basket 
+.section-5__info-box__info.gift-basket
+.section-5__info-box__heading.gift-basket{
+    color: #F1EDE6;
+}
+.section-5__info-box__subheading.gift-basket {
+    color: #F1EDE6;
+}
+.section-5__info-box__text.gift-basket {
+    color: #F1EDE6;
+}
+                
 
 @media only screen and (min-width: 768px) {
 /*OM OS*/    
