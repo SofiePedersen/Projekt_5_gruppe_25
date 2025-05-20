@@ -124,6 +124,7 @@ header {
     width: 78%;
     border: 2px solid #C0B283;
     border-left: none;
+    padding-left: 2%;
 }
 
 .header__search-bar__icon {
@@ -447,7 +448,7 @@ header {
 
 .section-7__review__overflow-box {
     width: 100%;
-    height: 350px;
+    height: 360px;
     padding: 0% 7%;
 
     display: flex;
@@ -489,11 +490,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 7% 14%;
+    padding: 7%;
 }
 
-.section-7__review__rating-box i {
-    color: #C0B283;
+.section-7__review__rating-box img {
+    width: 30px;
 }
 
 .section-7__review__text{
@@ -510,11 +511,7 @@ header {
 /* SECTION 8 - FAQ */
 
 .section-8__faq {
-    padding: 0% 7% 20% 7%;
-}
-
-.section-8__faq__heading {
-    margin-top: 7%;
+    padding: 15% 7% 20% 7%;
 }
 
 .section-8__faq__question{
@@ -626,7 +623,7 @@ header {
 }
 
 .footer__top__icon-text {
-    color: #F1EDE6;
+    color: #fff;
     margin-top: 15px;
     font-size: 14px;
     text-align: center;
@@ -653,7 +650,7 @@ header {
     font-optical-sizing: auto;
     font-weight: 300;
     font-size: 16px;
-    color: #F1EDE6;
+    color: #fff;
     line-height: 24px;
     text-decoration: none;
 }
@@ -667,7 +664,57 @@ header {
     font-weight: 500;
 }
 
+.footer__bottom__icons {
+    display: flex;
+    gap: 30px;
+}
 
+.footer__bottom__icons-img,
+.footer__bottom__icons-img--facebook {
+    aspect-ratio: 1 / 1;
+    width: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #C0B283;
+}
+
+.footer__bottom__icons-img img,
+.footer__bottom__icons-img--facebook img {
+    width: 35px;
+
+}
+
+/* Since facebooks icon is tilted to the side, we
+must style the element specifically so it looks centered */
+.footer__bottom__icons-img--facebook img {
+    margin-left: -3px;
+}
+
+.footer__bottom__logo {
+    margin-top: 30px;
+
+}
+
+.footer__bottom__logo img {
+    width:55%;
+}
+
+.footer__bottom__copyright-section {
+    color: #fff;
+    border-top: 2px solid #C0B283;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: #465048;
+}
+
+.footer__bottom__copyright-section p {
+    font-size: 10px;
+    color: #fff;
+}
 
 /* MEDIA QUERY */
 
@@ -713,42 +760,44 @@ header {
         font-optical-sizing: auto;
         font-weight: 300;
         font-size: 22px;
+    }
+
+    /* SECTION-3 - POPULAR CATEGORIES */
+
+    .section-3__popular-categories {
+        padding: 0% 7% 20% 7%;
+    }
+    
+    .section-3__popular-categories__links {
+        gap: 20px;
+    }
+    
+    .section-3__popular-categories__link-cards {
+        width: 25%;
+        gap: 10%;
+    }
+
+    .section-3__popular-categories__link-cards--individuals {
+        margin-bottom: 7%;
+    }
+
+    /* SECTION 5 - BYG DIN EGEN GAVEKURV */
+
+    .section-4__design-din-kurv__background-image {
+        height: 750px;
+        width: 100%;
+        
+        background-image: url('../images/design_din_egen.webp');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 20%;
     }    
 }
 
-@media only screen and (min-width: 768px) {
-/* SECTION-3 - POPULAR CATEGORIES */
-.section-3__popular-categories {
-    padding: 0% 7% 7% 7%;
-}
-.section-3__popular-categories__links {
-    gap: 20px;
-}
-.section-3__popular-categories__link-cards {
-    width: 14%;
-    gap: 10%;
-}
-
-.section-3__popular-categories__link-cards--individuals {
-    margin-bottom: 7%;
-}
-
-/* SECTION 5 - BYG DIN EGEN GAVEKURV */
-
-.section-4__design-din-kurv__background-image {
-    background-image: url('../images/design_din_egen.webp');
-    height: 750px;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position: center;
-
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 20%;
-
-}
-
-}
 @media only screen and (min-width: 1240px) {
     /* SECTION 1 - HERO SLIDESHOW */
     .section-1__slideshow {
@@ -774,12 +823,4 @@ header {
         bottom: 7%;
         left: 47%;
     }
-
-    .section-3__popular-categories {
-    padding: 0% 7% 7% 7%;
-}
-    .section-3__popular-categories__link-cards--individuals {
-    margin-bottom: 0%;
-    }
-
 }
