@@ -226,7 +226,7 @@ header {
 .section-5__info-box__heading,
 .section-6__info-box__heading,
 .section-7__review__heading,
-.section-8__FAQ__heading {
+.section-8__faq__heading {
     margin-bottom: 5px;
 }
 
@@ -234,13 +234,14 @@ header {
 .section-5__info-box__subheading,
 .section-6__info-box__subheading,
 .section-7__review__subheading,
-.section-8__FAQ__subheading {
+.section-8__faq__subheading {
     margin-bottom: 30px;
 }
 
 .section-2__info-box__text:first-of-type,
 .section-5__info-box__text,
-.section-6__info-box__text {
+.section-6__info-box__text,
+.section-8__faq__text:first-of-type {
     margin-bottom: 30px;
 }
 
@@ -316,6 +317,7 @@ header {
 
 .section-4__design-din-kurv__info-box {
     background-color: #F1EDE6;
+    text-decoration: none;
     
     border: 3px solid #C0B283;
     border-radius: 7px;
@@ -325,6 +327,7 @@ header {
     border-left: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
     width: 90%;
     height: 120px;
@@ -337,14 +340,15 @@ header {
 }
 
 .section-4__design-din-kurv__info-box__triangle{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     rotate: 90deg;
 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent; 
-    border-bottom: 25px solid #C0B283;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 20px solid #C0B283;
 }
+
 
 .section-4__design-din-kurv__info-box__titles h2 {
     margin-bottom: 5px;
@@ -471,8 +475,18 @@ header {
 
 /* FAQ */
 
-.section-8__FAQ {
-    
+.section-8__faq {
+    padding: 0% 7% 20% 7%;
+}
+
+.section-8__faq__triangle{
+    width: 15px;
+    height: 15px;
+    rotate: 180deg;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 15px solid #C0B283;
 }
 
 /* MEDIA QUERY */
@@ -514,7 +528,7 @@ header {
         font-size: 18px;
     }
     
-    .FAQ {
+    .faq {
         font-family: "Inter", Arial, Helvetica, sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
