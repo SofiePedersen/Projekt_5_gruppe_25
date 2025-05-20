@@ -1,39 +1,38 @@
-/*OM OM SIDE*/
-    /*OM OS 1*/
-.section-6__info-box.about {
+/*ABOUT*/
+    /*ABOUT HERO*/
+.about .section-6__info-box {
     padding: 10% 7%;
 }
-.section-6__info-box__card.about {
+.about .section-6__info-box__card{
     background-color: #465048;
 }
-.section-6__info-box__image-box.about {
+.about .section-6__info-box__image-box {
     background-image: url('../images/butik.webp');
 }
-.section-6__info-box__heading.about {
+.about .section-6__info-box__heading {
     color: #F1EDE6;
 }
-.section-2__info-box.about{
+.about .section-2__info-box{
     padding: 10% 7%;
 }
 
-    /*OM OS 2*/
-.section-5__info-box.about {
+    /*ABOUT I*/
+.about .section-5__info-box{
     padding: 10% 7%;
 }
-.section-5__info-box__card.about {
+.about .section-5__info-box__card{
     border: none;
     border-radius: none;
     box-shadow: none;
 }
-.section-5__info-box__image-box.about {
+.about .section-5__info-box__image-box{
     border: 3px solid #C0B283;
     border-radius: 7px;
 }
-.section-5__info-box__info.about {
+.about .section-5__info-box__info{
     padding: 5% 0%;
 }
-
-.section-5__info-box__list.about li {
+.about .section-5__info-box__list li {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -42,13 +41,12 @@
     padding: 1%;
     margin-top: 2%;
 }
-
-.section-5__info-box__list.about ul {
+.about .section-5__info-box__list ul {
     padding-left: 5%;
 } 
 
-    /*OM OS 3*/
-.section-3__popular-categories__link-cards--individuals.lisbeth {
+    /*ABOUT II*/
+.lisbeth .section-3__popular-categories__link-cards--individuals{
     width: 50%;
     justify-self: center;
     align-self: center;
@@ -58,19 +56,19 @@
 
 /*PRODUCTS*/
     /*PRODUCTS - HERO*/
-.section-6__info-box.products {
+.products .section-6__info-box{
     padding: 10% 7%;
 }
-.section-6__info-box__card.products {
+.products .section-6__info-box__card {
     background-color: #465048;
 }
-.section-6__info-box__image-box.products {
+.products .section-6__info-box__image-box{
     background-image: url('../images/saebe_II.webp');
 }
-.section-6__info-box__heading.products {
+.products .section-6__info-box__heading{
     color: #F1EDE6;
 }
-.section-2__info-box.products{
+.products .section-2__info-box{
     padding: 10% 7%;
 }
 
@@ -98,9 +96,7 @@
     /* Internet Explorer 10+ */
     -ms-overflow-style: none;     
 }
-
-
-/* Hiding scrollbar on Chrome, Safari and Opera */
+    /* Hiding scrollbar on Chrome, Safari and Opera */
 .section-7__farsdag__overflow-box::-webkit-scrollbar {
   display: none;
 }
@@ -212,28 +208,31 @@
 }
 
 /* GIFT BASKET */
-.section-6__info-box__image-box.gift-basket {
+    /* HERO */
+.gift-basket .section-6__info-box__image-box {
     background-image: url('../images/gavekurv_design.webp');
 }
 
-.section-5__info-box__card.gift-basket {
+
+.gift-basket .section-5__info-box__card{
     background-color: #465048;
     border: none;
 }
-.section-5__info-box__image-box.gift-basket 
-.section-5__info-box__info.gift-basket
+.gift-basket .section-5__info-box__image-box 
+.gift-basket .section-5__info-box__info
 
-.section-5__info-box__heading.gift-basket {
+.gift-basket .section-5__info-box__heading {
     color: #F1EDE6;
-    font-size: 100px;
+    font-size: 100px; 
 }
-.section-5__info-box__subheading.gift-basket {
+.gift-basket .section-5__info-box__subheading {
     color: #F1EDE6;
 }
-.section-5__info-box__text.gift-basket {
+.gift-basket .section-5__info-box__text {
     color: #F1EDE6;
 }
 
+    /*GAVEKURVE _ CARDS*/
 .section__giftbasket {
     padding: 5% 7%;
 }
@@ -293,56 +292,56 @@
     object-fit: cover;
 }
 @media only screen and (min-width: 768px) {
-/*OM OS*/    
-    /*OM OS 1*/
-    .section-6__info-box.about {
+/*ABOUT*/    
+    /*ABOUT HERO*/
+    .about .section-6__info-box{
         padding: 0%;
         width: 100%;
     }
-    .section-6__info-box__image-box.about {
+    .about .section-6__info-box__image-box{
         display: none;
     }
-    .section-6__info-box__info.about {
+    .about .section-6__info-box__info{
         height: 150px;
         background-image: url('../images/lys.webp');
         background-position: center;
         background-repeat: no-repeat;
     }
-    .section-6__info-box__heading.about {
+    .about .section-6__info-box__heading{
         justify-self: center;
         align-self: center;
     }
 
-    /*OM OS 2*/
-    .section-5__info-box.about {
+    /*ABOUT I*/
+    .about .section-5__info-box{
         padding-top: 0;
     }
-    .section-5__info-box__card.about {
+    .about .section-5__info-box__card{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-    .section-5__info-box__image-box.about {
+    }
+    .about .section-5__info-box__image-box{
     display: flex;
     width: 40%;
     height: 500px;
     }
-    .section-5__info-box__info.about {
+    .about .section-5__info-box__info{
         display: flex;
         flex-direction: column;
         padding: 0% 7%;
         width: 60%;
     }
 
-    /*OM OS 3*/
-    .section-6__info-box__card.lisbeth {
+    /*ABOUT II*/
+    .lisbeth .section-6__info-box__card{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    .section-3__popular-categories__link-cards--individuals.lisbeth {
+    .lisbeth .section-3__popular-categories__link-cards--individuals{
     display:flex;
     width: 40%;
     justify-self: center;
@@ -353,7 +352,7 @@
     margin-bottom: 10%;
     margin-top: 10%;
     }
-    .section-6__info-box__info.lisbeth {
+    .lisbeth .section-6__info-box__info{
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -361,36 +360,43 @@
 
 /*PRODUCTS*/
     /*PRODUCTS - HERO*/
-        .section-6__info-box.products {
+    .products .section-6__info-box{
         padding: 0 0 7% 0;
         width: 100%;
     }
-    .section-6__info-box__image-box.products {
+    .products .section-6__info-box__image-box{
         display: none;
     }
-    .section-6__info-box__info.products {
+    .products .section-6__info-box__info{
         height: 150px;
         background-image: url('../images/lys.webp');
         background-position: center;
         background-repeat: no-repeat;
     }
-    .section-6__info-box__heading.products {
+   .products .section-6__info-box__heading{
         justify-self: center;
         align-self: center;
     }
 
+/*GIFT BASKET*/
+    /* GIFT BASKET _ HERO*/
+    .section-6__info-box__image-box.gift-basket {
+    display: none;
+    }
+
+
 }
 
 @media only screen and (min-width: 1240px) {
-/*OM OS*/    
-    .section-5__info-box__image-box.about {
+/* ABOUT */    
+    .about .section-5__info-box__image-box{
     width: 50%;
     height: 500px;
     }
-    .section-5__info-box__info.about {
+    .about .section-5__info-box__info{
         width: 50%;
     }
-    .section-3__popular-categories__link-cards--individuals.lisbeth {
+    .lisbeth .section-3__popular-categories__link-cards--individuals{
         aspect-ratio: 1 / 1;
     }
-    }
+}
