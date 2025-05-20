@@ -85,7 +85,7 @@ p, a{
     text-decoration: none;
     color: #F1EDE6;
 
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     padding: 12px;
     display: block;
     text-align: center;
@@ -223,7 +223,7 @@ header {
 .section-2__info-box__card {
     background-color: #fff;
     padding: 7%;
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -232,7 +232,7 @@ header {
 .section-5__info-box__heading,
 .section-6__info-box__heading,
 .section-7__review__heading,
-.section-8__FAQ__heading {
+.section-8__faq__heading {
     margin-bottom: 5px;
 }
 
@@ -240,13 +240,14 @@ header {
 .section-5__info-box__subheading,
 .section-6__info-box__subheading,
 .section-7__review__subheading,
-.section-8__FAQ__subheading {
+.section-8__faq__subheading {
     margin-bottom: 30px;
 }
 
 .section-2__info-box__text:first-of-type,
 .section-5__info-box__text,
-.section-6__info-box__text {
+.section-6__info-box__text,
+.section-8__faq__text:first-of-type {
     margin-bottom: 30px;
 }
 
@@ -287,7 +288,7 @@ header {
 }
 
 .section-3__popular-categories__link-cards--individuals {
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     background-color: #465048;
     overflow: hidden;
 
@@ -322,8 +323,9 @@ header {
 
 .section-4__design-din-kurv__info-box {
     background-color: #F1EDE6;
+    text-decoration: none;
     
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     border-radius: 7px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -331,6 +333,7 @@ header {
     border-left: none;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
     width: 90%;
     height: 120px;
@@ -343,14 +346,15 @@ header {
 }
 
 .section-4__design-din-kurv__info-box__triangle{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     rotate: 90deg;
 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent; 
-    border-bottom: 25px solid #C0B283;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 20px solid #C0B283;
 }
+
 
 .section-4__design-din-kurv__info-box__titles h2 {
     margin-bottom: 5px;
@@ -375,7 +379,7 @@ header {
 .section-5__info-box__card,
 .section-6__info-box__card {
     background-color: #fff;
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -446,7 +450,7 @@ header {
     flex: 0 0 auto;
 
     border-radius: 7px;
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -475,11 +479,40 @@ header {
     margin-top: 7%;
 }
 
-/* FAQ */
+/* SECTION 8 - FAQ */
 
-.section-8__FAQ {
-    
+.section-8__faq {
+    padding: 0% 7% 20% 7%;
 }
+
+.section-8__faq__heading {
+    margin-top: 7%;
+}
+
+.section-8__faq__question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 3% 25px 0%;
+    border-bottom: 1px solid #C0B283;
+}
+
+.section-8__faq__question__text {
+    padding: 7%;
+    display: none;
+}
+
+.section-8__faq__triangle{
+    width: 15px;
+    height: 15px;
+    rotate: 180deg;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent; 
+    border-bottom: 18px solid #C0B283;
+}
+
+/* SECTION 9 - NEWSLETTER */
 
 /* MEDIA QUERY */
 
@@ -520,7 +553,7 @@ header {
         font-size: 18px;
     }
     
-    .FAQ {
+    .faq {
         font-family: "Inter", Arial, Helvetica, sans-serif;
         font-optical-sizing: auto;
         font-weight: 300;
