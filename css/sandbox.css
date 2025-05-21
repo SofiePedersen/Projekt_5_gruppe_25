@@ -463,13 +463,6 @@
     .section-7__farsdag__img-box {
         margin-bottom: 3%;
     }
-
-/*GIFT BASKET*/
-    .section-6__info-box__image-box.gift-basket {
-    display: none;
-    }
-
-
 }
 
 @media only screen and (min-width: 1240px) {
