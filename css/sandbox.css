@@ -1,17 +1,30 @@
 /*ABOUT*/
     /*ABOUT HERO*/
-.about .section-6__info-box {
-    padding: 10% 7%;
+.about:first-of-type {
+    padding: 7%;
+    padding-bottom: 20%;
 }
+
+.about{
+    padding: 0% 7% 20% 7%;
+}
+
+.about .section-6__info-box {
+    padding: 0% 0% 10% 7%;
+}
+
 .about .section-6__info-box__card{
     background-color: #465048;
 }
+
 .about .section-6__info-box__image-box {
     background-image: url('../images/butik.webp');
 }
+
 .about .section-6__info-box__heading {
     color: #F1EDE6;
 }
+
 .about .section-2__info-box{
     padding: 10% 7%;
 }
@@ -20,18 +33,22 @@
 .about .section-5__info-box{
     padding: 10% 7%;
 }
+
 .about .section-5__info-box__card{
     border: none;
     border-radius: none;
     box-shadow: none;
 }
+
 .about .section-5__info-box__image-box{
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     border-radius: 7px;
 }
+
 .about .section-5__info-box__info{
     padding: 5% 0%;
 }
+
 .about .section-5__info-box__list li {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
@@ -41,6 +58,7 @@
     padding: 1%;
     margin-top: 2%;
 }
+
 .about .section-5__info-box__list ul {
     padding-left: 5%;
 } 
@@ -326,44 +344,38 @@
 }
 
 @media only screen and (min-width: 768px) {
-/*ABOUT*/    
-    /*ABOUT HERO*/
-    .about .section-6__info-box{
-        padding: 0%;
-        width: 100%;
+/*ABOUT*/ 
+
+    .about:first-of-type{
+        padding-bottom: 14%;
     }
-    .about .section-6__info-box__image-box{
-        display: none;
-    }
-    .about .section-6__info-box__info{
-        height: 150px;
-        background-image: url('../images/lys.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    .about .section-6__info-box__heading{
-        justify-self: center;
-        align-self: center;
+
+    .about {
+        padding-bottom: 14%;
     }
 
     /*ABOUT I*/
     .about .section-5__info-box{
         padding-top: 0;
     }
+
     .about .section-5__info-box__card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
+
     .about .section-5__info-box__image-box{
-    display: flex;
-    width: 40%;
-    height: 500px;
+        display: flex;
+        width: 40%;
+        height: 500px;
     }
+
     .about .section-5__info-box__info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding: 0% 7%;
         width: 60%;
     }
@@ -374,26 +386,38 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        height: 100%;
+        gap: 5%;
+        padding: 5%;
     }
 
     .lisbeth .section-3__popular-categories__link-cards--individuals{
     display:flex;
-    width: 40%;
     justify-self: center;
     align-self: center;
-    margin-left: 7%;
-    border-radius: 5%;
-    aspect-ratio: 1 / 1.5;
-    margin-bottom: 10%;
-    margin-top: 10%;
+
+    width: 50%;
+    height: 432px;
+    border-radius: 10px;
+    aspect-ratio: 0;
+    margin: 0;
     }
 
-    .lisbeth .section-6__info-box__info{
+    .lisbeth .section-3__popular-categories__link-cards--individuals img {
+        width: 100%;
+    }
+
+    .lisbeth .section-6__info-box__info {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
+    padding: 0;
     }
 
+    .lisbeth .section-6__info-box {
+        padding-bottom: 14%;
+    }
+    
 /*PRODUCTS*/
     .products {
         padding: 7%;
@@ -449,16 +473,57 @@
 }
 
 @media only screen and (min-width: 1240px) {
-/* ABOUT */    
-    .about .section-5__info-box__image-box{
-    width: 50%;
-    height: 500px;
+/* ABOUT */
+
+    .about .section-5__info-box__card {
+        padding: 0;
     }
-    .about .section-5__info-box__info{
-        width: 50%;
+
+    .about {
+        padding-bottom: 14%;
     }
-    .lisbeth .section-3__popular-categories__link-cards--individuals{
-        aspect-ratio: 1 / 1;
+
+    .about:first-of-type {
+        padding: 0;
+    }
+    
+    .about .section-5__info-box__card {
+        height: 500px;
+    }
+
+    .lisbeth {
+        padding-bottom: 14%;
+    }
+
+    .about .section-6__info-box__card {
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .about .section-6__info-box__info {
+        background-image: url('../images/baggrund_I.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .section-6__info-box__heading {
+        opacity: 100%;
+        color: #465048;
+        font-size: 60px;
+    }
+
+    .about .section-6__info-box__card {
+        display: block;
+        height: 100%;
+        margin-bottom: 14%;
     }
 
 /*PRODUCTS*/
@@ -471,12 +536,10 @@
     
     .section-6__info-box__image-box{
         display: none;
-
     }
 
     .products .section-6__info-box__info {
-        background-color: red;
-        background-image: url('../images/saebe_II.webp');
+        background-image: url('../images/baggrund_I.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: 100%;
