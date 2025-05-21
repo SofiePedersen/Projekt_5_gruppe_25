@@ -213,20 +213,19 @@
     background-image: url('../images/gavekurv_design.webp');
 }
 
-
+    /* FARS DAG */
 .gift-basket .section-5__info-box__card{
     background-color: #465048;
     border: none;
+    box-shadow: none;
 }
-.gift-basket .section-5__info-box__image-box 
-.gift-basket .section-5__info-box__info
-
 .gift-basket .section-5__info-box__heading {
     color: #F1EDE6;
     font-size: 100px; 
 }
 .gift-basket .section-5__info-box__subheading {
     color: #F1EDE6;
+    margin-bottom: 2%;
 }
 .gift-basket .section-5__info-box__text {
     color: #F1EDE6;
@@ -255,13 +254,11 @@
     height: 100%;
     overflow: hidden;
 }
-
 .section__giftbasket--one p {
     padding: 7% 0% 0% 7%;
     font-size: 16px;
     line-height: 20px;
 }
-
 .section__giftbasket--one img{
     height: 75%;
     object-fit: cover;
@@ -272,7 +269,6 @@
     width: 35%;
     gap: 5%;
 }
-
 .section__giftbasket--two p {
     font-size: 10px;
     line-height: 12px;
@@ -286,11 +282,11 @@
     border-radius: 7px;
     height: 47.5%;
 }
-
 .section__giftbasket--small img {
     height: 75%;
     object-fit: cover;
 }
+
 @media only screen and (min-width: 768px) {
 /*ABOUT*/    
     /*ABOUT HERO*/
