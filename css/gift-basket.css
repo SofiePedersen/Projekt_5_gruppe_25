@@ -1,10 +1,39 @@
+/*HERO*/
+.about:first-of-type {
+    padding: 7%;
+    padding-bottom: 20%;
+}
 
-    /* FARS DAG */
-.gift-basket .section-5__info-box__card{
+.about{
+    padding: 0% 7% 20% 7%;
+}
+
+.about .section-6__info-box {
+    padding: 0% 0% 10% 7%;
+}
+
+.about .section-6__info-box__card{
+    background-color: #465048;
+}
+
+.about .section-6__info-box__image-box {
+    background-image: url('../images/gavekurv_design.webp');
+}
+
+.about .section-6__info-box__heading {
+    color: #F1EDE6;
+}
+
+.about .section-2__info-box{
+    padding: 10% 7%;
+}
+
+
+/* FARS DAG */
+.gift-basket .section-5__info-box__card {
     background-color: #465048;
     border: none;
     box-shadow: none;
-    padding-top: 0%;
 }
 .gift-basket .section-5__info-box__heading {
     color: #F1EDE6;
