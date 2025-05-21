@@ -56,9 +56,16 @@
 
 /*PRODUCTS*/
     /*PRODUCTS - HERO*/
+    
 .products .section-6__info-box{
-    padding: 10% 7%;
+    padding: 0;
 }
+
+.products {
+    padding: 7%;
+    padding-bottom: 20%;
+}
+
 .products .section-6__info-box__card {
     background-color: #465048;
 }
@@ -73,9 +80,14 @@
 }
 
     /* PRODUCTS - FARS DAG */
-.section-7__farsdag-wrapper {
-     padding: 5% 7% 3% 7%;
+.section-7__farsdag {
+    margin-bottom: 8%;
 }
+
+.section-7__farsdag-wrapper {
+    padding: 0% 7% 3% 7%;
+}
+
 .section-7__farsdag__overflow-box {
     width: 100%;
     height: 450px;
@@ -100,6 +112,7 @@
 .section-7__farsdag__overflow-box::-webkit-scrollbar {
   display: none;
 }
+
 .section-7__farsdag__card {
     width: 330px;
     height: 90%;
@@ -107,7 +120,7 @@
     flex: 0 0 auto;
 
     border-radius: 7px;
-    border: 3px solid #C0B283;
+    border: 2px solid #C0B283;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section-7__farsdag__img-box {
@@ -123,7 +136,7 @@
     margin-bottom: 5%;
 }
 .section-7__farsdag__img-box img{
-   color: #C0B283;
+    border-bottom: 2px #C0B283 solid;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -133,15 +146,17 @@
     padding-left: 25px;
 }
 
-
 /*BRANDS*/
+
 .section-7__brands-wrapper {
-     padding: 5% 7% 3% 7%;
+     padding: 0% 7% 3% 7%;
 }
+
 .section-7__brands__overflow-box {
     width: 100%;
     height: 520px;
     padding: 0% 7%;
+    margin-bottom: 5%;
 
     display: flex;
     justify-content: space-between;
@@ -163,6 +178,7 @@
 .section-7__brands__overflow-box::-webkit-scrollbar {
   display: none;
 }
+
 .section-7__brands__card {
     width: 330px;
     height: 90%;
@@ -172,12 +188,14 @@
     flex-direction: column;
     background-color: #465048;
 
+    border: 2px #C0B283 solid;
     border-radius: 7px;
-    border: none;
     overflow: hidden;
+    margin-bottom: 5%;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .section-7__brands__img-box {
     margin-left: 0;
     margin-right: 0;
@@ -189,22 +207,39 @@
     align-items: center;
     padding: 0%;
 }
+
 .section-7__brands__img-box img{
-    color: #C0B283;
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+    border-bottom: 2px #C0B283 solid;
 }
+
 .section-7__brands__text{
     color: #F1EDE6;
-    padding-left: 25px;
-    margin-top: 50px;
+    padding: 7%;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .section-7__brands__text p{
     color: #F1EDE6;
     font-size: 28px;
     font-weight: 400;
+}
+
+.section-4__brands__triangle{
+    width: 10px;
+    height: 10px;
+    rotate: 90deg;
+
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; 
+    border-bottom: 15px solid #C0B283;
 }
 
 /* GIFT BASKET */
@@ -337,6 +372,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .lisbeth .section-3__popular-categories__link-cards--individuals{
     display:flex;
     width: 40%;
@@ -348,6 +384,7 @@
     margin-bottom: 10%;
     margin-top: 10%;
     }
+
     .lisbeth .section-6__info-box__info{
     display: flex;
     flex-direction: column;
@@ -356,22 +393,49 @@
 
 /*PRODUCTS*/
     /*PRODUCTS - HERO*/
+    .products {
+        padding: 7%;
+        padding-bottom: 14%;
+    }
+
     .products .section-6__info-box{
-        padding: 0 0 7% 0;
         width: 100%;
+        padding: 0%;
     }
+
     .products .section-6__info-box__image-box{
-        display: none;
+        height: 400px;
     }
+
     .products .section-6__info-box__info{
-        height: 150px;
-        background-image: url('../images/lys.webp');
-        background-position: center;
-        background-repeat: no-repeat;
+        height: 120px;
+        padding: 4%;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
+    
    .products .section-6__info-box__heading{
         justify-self: center;
         align-self: center;
+    }
+
+    .section-3__popular-categories {
+        padding: 0% 7% 14% 7%;
+    }
+
+    .section-7__farsdag__card {
+        height: 94%;
+    }
+
+    .section-7__farsdag__text-box {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .section-7__farsdag__img-box {
+        margin-bottom: 3%;
     }
 
 /*GIFT BASKET*/
