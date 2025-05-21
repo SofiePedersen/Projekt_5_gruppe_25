@@ -5,7 +5,7 @@ let isPlaying = true;
 
 showSlides (slideIndex);
 
-// prev og next kontrol
+// slide kontrol, mellem slides
 function plusSlides (n) {
     showSlides (slideIndex += n);
 }
