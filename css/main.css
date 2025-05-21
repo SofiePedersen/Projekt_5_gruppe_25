@@ -138,8 +138,11 @@ header {
     align-items: center;
 }
 
-.header__search-bar__icon i {
-    color: #C0B283;
+.header__bottom {
+    background-color: #465048;
+    border: 2px solid #C0B283;
+    border-left: none;
+    border-right: none;
 }
 
 /* SECTION 1 - HERO SLIDESHOW */
@@ -343,6 +346,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     background-position: center;
+    background-size: cover;
 
     display: flex;
     align-items: flex-end;
@@ -762,6 +766,20 @@ must style the element specifically so it looks centered */
         font-size: 22px;
     }
 
+    /* HEADER */
+
+    .header__search-bar {
+        height: 50px;
+    }
+
+    .header__search-bar__input {
+        width: 80%;
+    }
+
+    .header__search-bar__icon {
+        width: 20%;
+    }
+
     /* SECTION-3 - POPULAR CATEGORIES */
 
     .section-3__popular-categories {
@@ -773,7 +791,7 @@ must style the element specifically so it looks centered */
     }
     
     .section-3__popular-categories__link-cards {
-        width: 25%;
+        width: 30%;
         gap: 10%;
     }
 
@@ -781,21 +799,11 @@ must style the element specifically so it looks centered */
         margin-bottom: 7%;
     }
 
-    /* SECTION 5 - BYG DIN EGEN GAVEKURV */
+    /* SECTION 7 - REVIEW */
 
-    .section-4__design-din-kurv__background-image {
-        height: 750px;
-        width: 100%;
-        
-        background-image: url('../images/design_din_egen.webp');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        
-        display: flex;
-        align-items: flex-end;
-        padding-bottom: 20%;
-    }    
+    .section-7__review__overflow-box {
+        height: 400px;
+    }
 }
 
 @media only screen and (min-width: 1240px) {
