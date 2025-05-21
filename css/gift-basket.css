@@ -52,11 +52,13 @@
 }
 
 /* GAVEKURVE - KORT */
-
 .section__giftbasket-wrapper {
     padding: 7%;
 }
 
+.section-5__info-box.gift-basket {
+    padding-top: 0%;
+}
 .section__giftbasket--titles {
     margin-bottom: 7%;
 }
@@ -123,4 +125,65 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom: 2px solid #C0B283;
+}
+
+@media only screen and (min-width: 768px) {
+    /* HERO */
+    .about:first-of-type{
+        padding-bottom: 14%;
+    }
+
+    .about {
+        padding-bottom: 14%;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    /* HERO */
+      .about .section-5__info-box__card {
+        padding: 0;
+    }
+
+    .about {
+        padding-bottom: 14%;
+    }
+
+    .about:first-of-type {
+        padding: 0;
+    }
+    
+    .about .section-5__info-box__card {
+        height: 500px;
+    }
+
+    .about .section-6__info-box__card {
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+
+    .about .section-6__info-box__info {
+        background-image: url('../images/baggrund_gavekurv.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .section-6__info-box__heading {
+        opacity: 100%;
+        color: #465048;
+        font-size: 60px;
+    }
+
+    .about .section-6__info-box__card {
+        display: block;
+        height: 100%;
+        margin-bottom: 14%;
+    }
 }
