@@ -69,12 +69,15 @@
 .products .section-6__info-box__card {
     background-color: #465048;
 }
+
 .products .section-6__info-box__image-box{
     background-image: url('../images/saebe_II.webp');
 }
+
 .products .section-6__info-box__heading{
     color: #F1EDE6;
 }
+
 .products .section-2__info-box{
     padding: 10% 7%;
 }
@@ -392,7 +395,6 @@
     }
 
 /*PRODUCTS*/
-    /*PRODUCTS - HERO*/
     .products {
         padding: 7%;
         padding-bottom: 14%;
@@ -439,7 +441,6 @@
     }
 
 /*GIFT BASKET*/
-    /* GIFT BASKET _ HERO*/
     .section-6__info-box__image-box.gift-basket {
     display: none;
     }
@@ -458,5 +459,47 @@
     }
     .lisbeth .section-3__popular-categories__link-cards--individuals{
         aspect-ratio: 1 / 1;
+    }
+
+/*PRODUCTS*/
+    .products .section-6__info-box__card {
+        background-color: #fff;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .section-6__info-box__image-box{
+        display: none;
+
+    }
+
+    .products .section-6__info-box__info {
+        background-color: red;
+        background-image: url('../images/saebe_II.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        padding: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products .section-6__info-box__heading {
+        opacity: 100%;
+        color: #465048;
+        font-size: 60px;
+    }
+
+    .products .section-6__info-box__card {
+        display: block;
+        height: 100%;
+        margin-bottom: 14%;
+    }
+
+    .products {
+        padding: 0;
     }
 }
