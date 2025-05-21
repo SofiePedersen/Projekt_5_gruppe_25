@@ -139,10 +139,37 @@ header {
 }
 
 .header__bottom {
+    height: 60px;
     background-color: #465048;
     border: 2px solid #C0B283;
     border-left: none;
     border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.header__bottom ul {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bottom ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__bottom ul li a:hover {
+    color: #C0B283;
+    text-decoration: underline;
 }
 
 /* SECTION 1 - HERO SLIDESHOW */
@@ -807,6 +834,16 @@ must style the element specifically so it looks centered */
 }
 
 @media only screen and (min-width: 1240px) {
+    /* HEADER */
+
+    .header__search-bar{
+        display: none;
+    }
+
+    .header__bottom {
+        display: block;
+    }
+    
     /* SECTION 1 - HERO SLIDESHOW */
     .section-1__slideshow {
     height: 500px;
