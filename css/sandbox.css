@@ -288,18 +288,21 @@
 }
 
     /*GAVEKURVE _ CARDS*/
-.section__giftbasket {
-    padding: 5% 7%;
+.section__giftbasket-wrapper {
+    padding: 7%;
 }
+
 .section__giftbasket--titles {
-    padding: 7% 0%;
+    margin-bottom: 7%;
 }
+
+
 .section__giftbasket--cards {
     display: flex;
     flex: row;
     gap: 5%;
-    height: 400px;
 }
+
 .section__giftbasket--one {
     display: flex;
     flex-direction: column;
@@ -307,41 +310,55 @@
     border: 2px solid #C0B283;
     border-radius: 7px;
     width: 60%;
-    height: 100%;
     overflow: hidden;
 }
+
+.section__giftbasket--one__text-box,
+.section__giftbasket--two__text-box {
+    padding: 5%;
+}
+
 .section__giftbasket--one p {
-    padding: 7% 0% 0% 7%;
     font-size: 16px;
-    line-height: 20px;
 }
+
 .section__giftbasket--one img{
-    height: 75%;
+    height: 100%;
     object-fit: cover;
+    border-bottom: 2px solid #C0B283;
 }
+
 .section__giftbasket--two {
     display: flex;
     flex-direction: column;
     width: 35%;
-    gap: 5%;
+    gap: 4%;
 }
+
 .section__giftbasket--two p {
     font-size: 10px;
-    line-height: 12px;
-    padding: 5% 7% 5% 7%;
+    line-height: normal;
 }
+
 .section__giftbasket--small {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     border: 2px solid #C0B283;
     border-radius: 7px;
-    height: 47.5%;
+    height: 50%;
 }
+
 .section__giftbasket--small img {
-    height: 75%;
+    height: 100%;
     object-fit: cover;
+    
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 2px solid #C0B283;
 }
+
 
 @media only screen and (min-width: 768px) {
 /*ABOUT*/ 
