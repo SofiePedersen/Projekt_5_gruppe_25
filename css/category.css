@@ -92,3 +92,108 @@
     border-bottom-right-radius: 0;
     border-bottom: 2px solid #C0B283;
 }
+
+.section-3__category__products {
+    padding: 14% 7%;
+}
+
+.section-3__category__products-list-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-3__category__products-titles {
+    margin-bottom: 30px;
+}
+
+.section__giftbasket--product {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 48%;
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+
+.section__giftbasket--product__text-box {
+    padding: 5%;
+}
+
+.section__giftbasket--product p {
+    font-size: 16px;
+}
+
+.section__giftbasket--product img{
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #C0B283;
+}
+
+@media only screen and (min-width: 1240px) {
+    .bread-crumb-box {
+        padding-bottom: 4%;
+    }
+
+    .section__giftbasket--product {
+        width: 22%;
+    }
+
+    .section-3__category__products-list-wrapper {
+        gap: 4%;
+    }
+
+    .section-3__category__products {
+        padding: 7%;
+    }
+
+    .category .section-5__info-box__heading {
+        background-color: #465048;
+        border: 2px #C0B283 solid;
+        border-radius: 7px;
+        color: #fff;
+        padding: 5%;
+        margin: 0;
+    }
+
+    .section__giftbasket--one {
+        width: 33%;
+    }
+
+    .section__giftbasket--cards {
+        gap: 2%;
+    }
+
+    .section__giftbasket--small {
+        height: 100%;
+        width: 50%;
+    }
+
+    .section__giftbasket--two {
+        display: flex;
+        flex-direction: row;
+        width: 66%;
+        gap: 3%;
+    }
+
+    .section__giftbasket--two p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .section__giftbasket-wrapper {
+        background-color: #F1EDE6;
+        padding: 7%;
+    }
+
+    .section__giftbasket--titles h2,
+    .section__giftbasket--titles h3 {
+        color: #465048;
+    }
+    
+
+}
