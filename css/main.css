@@ -172,6 +172,10 @@ header {
     text-decoration: underline;
 }
 
+
+
+
+
 /* SECTION 1 - HERO SLIDESHOW */
 
 .section-1__slideshow {
@@ -818,6 +822,8 @@ must style the element specifically so it looks centered */
     .header__search-bar__icon {
         width: 20%;
     }
+
+
 
     /* SECTION-3 - POPULAR CATEGORIES */
 
