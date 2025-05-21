@@ -365,7 +365,7 @@ header {
     height: 100%;
 }
 
-/* SECTION 5 - BUILD YOUR GIFT BASKET */
+/* SECTION 4 - BUILD YOUR GIFT BASKET */
 
 .section-4__design-din-kurv__background-image {
     background-image: url('../images/design_din_egen.webp');
@@ -776,6 +776,8 @@ must style the element specifically so it looks centered */
         font-optical-sizing: auto;
         font-weight: 300;
         font-size: 22px;
+        line-height: 28px;
+        text-align: justify;
     }
     
     .citat {
@@ -834,6 +836,11 @@ must style the element specifically so it looks centered */
 }
 
 @media only screen and (min-width: 1240px) {
+    
+    .cta-btn {
+        width: 225px;
+    }
+
     /* HEADER */
 
     .header__search-bar{
@@ -845,8 +852,9 @@ must style the element specifically so it looks centered */
     }
     
     /* SECTION 1 - HERO SLIDESHOW */
+
     .section-1__slideshow {
-    height: 500px;
+        height: 500px;
     }
 
     .slide__box.one {
@@ -868,4 +876,200 @@ must style the element specifically so it looks centered */
         bottom: 7%;
         left: 47%;
     }
+
+    /* SECTION 2 - INFO BOX */
+
+    .section-2__info-box {
+        padding: 10% 7%;
+    }
+
+    .section-2__info-box__card {
+        padding: 7% 5%;
+    }
+
+    /* SECTION 3 - POPULAR CATEGORIS */
+
+    .section-3__popular-categories {
+        padding: 0% 7% 10% 7%;
+    }
+
+    .section-3__popular-categories__link-cards {
+        width: 15%;
+    }
+
+    .section-3__popular-categories__link-cards--individuals {
+        margin-bottom: 20px;
+    }
+
+    .section-3__popular-categories__link-cards a {
+        font-size: 20px;
+    }
+
+    /* SECTION 4 - BUILD YOUR GIFT BASKET */
+
+    .section-4__design-din-kurv__background-image {
+        padding-bottom: 7%;
+        height: 800px;
+    }
+
+    /* SECTION 5 & 6 - INFO BOX */
+
+    .section-5__info-box {
+        padding: 10% 7%;
+    }
+
+    .section-6__info-box {
+        padding: 0% 7% 10% 7%;
+    }
+
+    .section-5__info-box__card,
+    .section-6__info-box__card {
+        height: 575px;
+        background-color: #fff;
+        border: 2px solid #C0B283;
+        border-radius: 7px;
+        padding: 4%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .section-5__info-box__image-box,
+    .section-6__info-box__image-box {
+        height: 100%;
+        width: 50%;
+        border-radius: 7px;
+
+        background-color: #465048;
+        background-image: url('../images/farsdag.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section-6__info-box__image-box {
+        background-image: url('../generated_images/medarbejder_mellem.webp');
+    }
+
+    .section-5__info-box__info,
+    .section-6__info-box__info {
+        width: 50%;
+        padding: 4%;
+    }
+
+    .section-5__info-box__info a,
+    .section-6__info-box__info a {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* SECTION 7 - REVIEWS */
+
+    
+    .section-7__review__overflow-box {
+        width: 100%;
+        height: 460px;
+        padding: 0% 7%;
+
+        display: flex;
+        justify-content: space-between;
+        gap: 4%;
+
+        overflow-y: auto;
+
+        /* Below this comment you will see how we hide our scrollbar
+        on the review-cards*/
+        
+        /* Firefox */
+        scrollbar-width: none;
+
+        /* Internet Explorer 10+ */
+        -ms-overflow-style: none;     
+    }
+
+    /* Hiding scrollbar on Chrome, Safari and Opera */
+    .section-7__review__overflow-box::-webkit-scrollbar {
+        display: none;
+    }
+
+    .section-7__review__card {
+        width: 380px;
+        height: 90%;
+        padding: 35px;
+        flex: 0 0 auto;
+
+        border-radius: 7px;
+        border: 2px solid #C0B283;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    /* SECTION 8 - FAQ */
+
+    .section-8__faq {
+        padding: 5% 7% 10% 7%;
+    }
+
+    /* SECTION 9 - NEWSLETTER */
+
+    .section-9__newsletter {
+        padding: 0% 7% 10% 7%;
+    }
+
+    /* FOOTER */
+    .footer__bottom {
+        padding: 10% 5%;
+        background-color: #465048;
+    }
+
+    .footer__bottom__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: red;
+    }
+    
+    .footer__bottom__info-box {
+        margin-bottom: 0;
+    }
+
+    .footer__bottom__info-box li {
+        margin-bottom: 15px;
+    }
+
+    
+    .footer__bottom__icons-img,
+    .footer__bottom__icons-img--facebook {
+        aspect-ratio: 1 / 1;
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #C0B283;
+    }
+    
+    .footer__bottom__icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__bottom__icons-wrapper {
+        display: flex;
+    }
+
+    .footer__bottom__icons-img img,
+    .footer__bottom__icons-img--facebook img {
+        width: 35px;
+
+    }
+
+    /* Since facebooks icon is tilted to the side, we
+    must style the element specifically so it looks centered */
+    .footer__bottom__icons-img--facebook img {
+        margin-left: -3px;
+    }
+
 }
