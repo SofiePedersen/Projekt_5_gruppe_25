@@ -676,7 +676,8 @@ header {
 }
 
 .footer__bottom__info-box li a,
-.footer__bottom__info-box li {
+.footer__bottom__info-box li,
+.footer__bottom__icons p {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -697,6 +698,7 @@ header {
 
 .footer__bottom__icons {
     display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -723,6 +725,10 @@ must style the element specifically so it looks centered */
     margin-left: -3px;
 }
 
+.footer__bottom__icons-img--facebook {
+    margin-left: 15px;
+}
+
 .footer__bottom__logo {
     margin-top: 30px;
 
@@ -745,6 +751,10 @@ must style the element specifically so it looks centered */
 .footer__bottom__copyright-section p {
     font-size: 10px;
     color: #fff;
+}
+
+.footer__bottom__icons-wrapper {
+    display: flex;
 }
 
 /* MEDIA QUERY */
@@ -1027,7 +1037,6 @@ must style the element specifically so it looks centered */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: red;
     }
     
     .footer__bottom__info-box {
@@ -1072,4 +1081,16 @@ must style the element specifically so it looks centered */
         margin-left: -3px;
     }
 
+    .footer__bottom__icons {
+        gap: 20px;
+    }
+
+    .footer__bottom__logo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .footer__bottom__logo img {
+        width:20%;
+    }
 }
