@@ -1,0 +1,32 @@
+.section__my-basket {
+    padding: 7%;
+}
+
+.section__my-basket__title {
+    background-color: #465048;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    color: #fff;
+    padding: 7%;
+    margin-bottom: 7%;
+}
+
+.section__my-basket__info {
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+}
+
+.section__my-basket__info--title {
+    padding: 7%;
+    border-bottom: 2px solid #C0B283;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content--flexbox {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #C0B283;
+    padding: 3%;
+}
