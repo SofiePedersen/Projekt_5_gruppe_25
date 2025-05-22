@@ -181,7 +181,7 @@
 
     display: flex;
     justify-content: space-between;
-    gap: 7%;
+    gap: 4%;
 
     overflow-y: auto;
 
@@ -469,16 +469,12 @@
     }
 
     .section-7__farsdag__card {
-        height: 94%;
+        height: 100%;
     }
 
     .section-7__farsdag__text-box {
         margin-top: auto;
         margin-bottom: auto;
-    }
-
-    .section-7__farsdag__text-box p{
-        font-size: 12px;
     }
 
     .section-7__farsdag__img-box {
