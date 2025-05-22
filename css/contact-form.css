@@ -53,7 +53,7 @@
 
 .section__map__map-window {
     background-color: red;
-    height: 200px;
+    height: 300px;
     width: 100%;
 
     border: 2px solid #C0B283;
@@ -93,3 +93,76 @@
     font-size: 20px;
 }
 
+.section__map__opening-hours--title {
+    padding-bottom: 3.5%;
+}
+
+.section__map__opening-hours--text {
+    padding: 3.5% 0%;
+}
+
+@media only screen and (min-width: 768px) {
+    .section__map__map-window {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .contact:first-of-type {
+        padding-bottom: 10%;
+    }
+
+    .section__map-wrapper {
+        padding: 4%;
+    }
+
+    .section__map__titles {
+        padding: 0% 0% 4% 0%;
+    }
+
+    .section__map__map-window {
+        height: 370px;
+        width: 70%;
+    }
+
+    .section__map-info {
+        display: flex;
+    }
+
+    .section__map__view {
+        width: 70%;
+        padding: 0%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section__map-info-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 370px;
+    }
+
+    .section__map__contact--phone img,
+    .section__map__contact--mail img {
+        width: 30px;
+    }
+
+    .section__map__map-text {
+        margin-top: 1%;
+    }
+
+    .section__map__contact {
+        padding: 0% 0% 10% 0%;
+    }
+
+    .section__map__opening-hours--text:last-of-type {
+        padding-bottom: 0
+    }
+
+    .section__map__opening-hours--text {
+        font-size: 20px;
+    }
+}
