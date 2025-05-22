@@ -120,6 +120,10 @@
     padding-bottom: 20%;
 }
 
+.section__giftbasket--small img {
+    height: 300px;
+}
+
 @media only screen and (min-width: 768px) {
     /* HERO */
 
@@ -127,6 +131,10 @@
     .section__giftbasket--two__text-box--2 p {
         font-size: 14px;
         line-height: 24px;
+    }
+
+    .section__giftbasket--small img {
+        height: 400px;
     }
 }
 
