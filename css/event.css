@@ -24,19 +24,7 @@
 
 /* GAVEKURVE - KORT */
 .section__giftbasket-wrapper {
-    padding: 14% 7% 0% 7%;
-}
-
-.special {
-    padding-top: 20%;
-}
-
-.special-2 {
-    padding-bottom: 20%;
-}
-
-.section-5__info-box.gift-basket {
-    padding-top: 0%;
+    padding: 10% 7% 0% 7%;
 }
 
 .section__giftbasket--titles {
@@ -60,10 +48,25 @@
 }
 
 .section__giftbasket--one__text-box,
-.section__giftbasket--two__text-box {
+.section__giftbasket--two__text-box,
+.section__giftbasket--two__text-box--2 {
     padding: 5%;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.section__giftbasket--two__text-box {
+    border: 2px solid #C0B283;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 10%;
+}
+
+.section__giftbasket--two__text-box--2 {
+    border: 2px solid #C0B283;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 0%;
 }
 
 .section__giftbasket--one p {
@@ -77,10 +80,10 @@
 }
 
 .section__giftbasket--two {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     width: 35%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .section__giftbasket--two p {
@@ -91,26 +94,30 @@
 .section__giftbasket--small {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    border: 2px solid #C0B283;
-    border-radius: 7px;
-    height: 48%;
+    /* background-color: #fff; */
+    /* height: 48%; */
 }
 
 .section__giftbasket--small img {
     height: 75%;
     object-fit: cover;
-    
-    border-radius: 5px;
+
+    border: 2px solid #C0B283;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    border-bottom: 2px solid #C0B283;
+}
+
+.gift-basket__flexbox {
+    padding-bottom: 20%;
 }
 
 @media only screen and (min-width: 768px) {
     /* HERO */
 
-    .section__giftbasket--two__text-box p {
+    .section__giftbasket--two__text-box p,
+    .section__giftbasket--two__text-box--2 p {
         font-size: 14px;
         line-height: 24px;
     }
@@ -150,6 +157,8 @@
         border-radius: 0;
     }
 
+    /* GIFT BASKET */
+
     .gift-basket__flexbox {
         display: flex;
         flex-wrap: wrap;
@@ -169,6 +178,14 @@
 
     .section__giftbasket--titles h3 {
         font-size: 26px;
+    }
+
+    .section__giftbasket--one img {
+        height: 600px;
+    }
+
+    .section__giftbasket--small img {
+        height: 300px;
     }
 
     .gift-basket .section-4__design-din-kurv__info-box {

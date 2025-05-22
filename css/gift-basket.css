@@ -242,6 +242,8 @@
         border-radius: 0;
     }
 
+    /* GIFT BASKET */
+
     .gift-basket__flexbox {
         display: flex;
         flex-wrap: wrap;
