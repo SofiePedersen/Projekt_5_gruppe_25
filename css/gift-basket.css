@@ -18,6 +18,7 @@
 
 .about .section-6__info-box__image-box {
     background-image: url('../images/gavekurv_design.webp');
+    border-bottom: 2px solid #C0B283;
 }
 
 .about .section-6__info-box__heading {
@@ -28,37 +29,47 @@
     padding: 10% 7%;
 }
 
-
 /* FARS DAG */
 .gift-basket .section-5__info-box__card {
     background-color: #465048;
-    border: none;
-    box-shadow: none;
+    border: 2px solid #C0B283;
 }
+
 .gift-basket .section-5__info-box__heading {
     color: #F1EDE6;
     font-size: 100px; 
 }
+
 .gift-basket .section-5__info-box__subheading {
     color: #F1EDE6;
     margin-bottom: 2%;
 }
+
 .gift-basket .section-5__info-box__text {
     color: #F1EDE6;
 }
 
-.gift-basket .section-6__info-box__image-box {
-    background-image: url('../images/gavekurv_design.webp');
+.gift-basket .section-5__info-box__image-box {
+    border-bottom: 2px solid #C0B283;
 }
 
 /* GAVEKURVE - KORT */
 .section__giftbasket-wrapper {
-    padding: 7%;
+    padding: 14% 7% 0% 7%;
+}
+
+.special {
+    padding-top: 20%;
+}
+
+.special-2 {
+    padding-bottom: 20%;
 }
 
 .section-5__info-box.gift-basket {
     padding-top: 0%;
 }
+
 .section__giftbasket--titles {
     margin-bottom: 7%;
 }
@@ -129,12 +140,10 @@
 
 @media only screen and (min-width: 768px) {
     /* HERO */
-    .about:first-of-type{
-        padding-bottom: 14%;
-    }
 
-    .about {
-        padding-bottom: 14%;
+    .section__giftbasket--two__text-box p {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
@@ -145,7 +154,7 @@
     }
 
     .about {
-        padding-bottom: 14%;
+        padding: 7%;
     }
 
     .about:first-of-type {
@@ -184,6 +193,68 @@
     .about .section-6__info-box__card {
         display: block;
         height: 100%;
-        margin-bottom: 14%;
+    }
+
+    /* FARS DAG */
+    section.section-5__info-box.gift-basket {
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .gift-basket .section-5__info-box__card {
+        background-color: #465048;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .gift-basket .section-5__info-box__heading {
+        color: #F1EDE6;
+        font-size: 100px; 
+    }
+
+    .gift-basket .section-5__info-box__subheading {
+        color: #F1EDE6;
+        margin-bottom: 2%;
+    }
+
+    .gift-basket .section-5__info-box__text {
+        color: #F1EDE6;
+    }
+
+    .gift-basket .section-5__info-box__image-box {
+        border-bottom: 2px solid #C0B283;
+        border-radius: 0;
+    }
+
+    .gift-basket__flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2%;
+        padding: 5%;
+        padding-top: 7%;
+    }
+
+    .section__giftbasket-wrapper {
+        width: 47%;
+        border: 2px solid #C0B283;
+        border-radius: 7px;
+        padding: 4% 2% 2% 2%;
+        margin-bottom: 2%;
+    }
+
+    .section__giftbasket--one img {
+        height: 550px;
+    }
+
+    .section__giftbasket--titles h3 {
+        font-size: 26px;
+    }
+
+    .gift-basket .section-4__design-din-kurv__info-box {
+        padding-left: 7%;
+        width: 94%;
     }
 }
