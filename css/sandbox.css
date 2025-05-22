@@ -111,12 +111,12 @@
 
 .section-7__farsdag__overflow-box {
     width: 100%;
-    height: 450px;
+    height: 400px;
     padding: 0% 7%;
 
     display: flex;
     justify-content: space-between;
-    gap: 7%;
+    gap: 3%;
 
     overflow-y: auto;
 
@@ -135,8 +135,8 @@
 }
 
 .section-7__farsdag__card {
-    width: 330px;
-    height: 90%;
+    width: 250px;
+    height: 100%;
     padding: 0;
     flex: 0 0 auto;
 
@@ -475,6 +475,10 @@
     .section-7__farsdag__text-box {
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    .section-7__farsdag__text-box p{
+        font-size: 12px;
     }
 
     .section-7__farsdag__img-box {
