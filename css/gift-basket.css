@@ -123,10 +123,7 @@
 }
 
 .section__giftbasket--two {
-    /* display: flex;
-    flex-direction: column; */
     width: 35%;
-    /* justify-content: space-between; */
 }
 
 .section__giftbasket--two p {
@@ -137,8 +134,6 @@
 .section__giftbasket--small {
     display: flex;
     flex-direction: column;
-    /* background-color: #fff; */
-    /* height: 48%; */
 }
 
 .section__giftbasket--small img {
