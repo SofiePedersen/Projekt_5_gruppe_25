@@ -137,6 +137,16 @@
     border-bottom: 2px solid #C0B283;
 }
 
+@media only screen and (min-width: 768px) {
+    /* HERO */
+
+    .section__giftbasket--two__text-box p,
+    .section__giftbasket--two__text-box--2 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
 @media only screen and (min-width: 1240px) {
     .bread-crumb-box {
         padding-bottom: 4%;

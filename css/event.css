@@ -1,34 +1,3 @@
-/*HERO*/
-.about:first-of-type {
-    padding: 7%;
-    padding-bottom: 20%;
-}
-
-.about{
-    padding: 0% 7% 20% 7%;
-}
-
-.about .section-6__info-box {
-    padding: 0% 0% 10% 7%;
-}
-
-.about .section-6__info-box__card{
-    background-color: #465048;
-}
-
-.about .section-6__info-box__image-box {
-    background-image: url('../images/gavekurv_design.webp');
-    border-bottom: 2px solid #C0B283;
-}
-
-.about .section-6__info-box__heading {
-    color: #F1EDE6;
-}
-
-.about .section-2__info-box{
-    padding: 10% 7%;
-}
-
 /* FARS DAG */
 .gift-basket .section-5__info-box__card {
     background-color: #465048;
@@ -91,25 +60,10 @@
 }
 
 .section__giftbasket--one__text-box,
-.section__giftbasket--two__text-box,
-.section__giftbasket--two__text-box--2 {
+.section__giftbasket--two__text-box {
     padding: 5%;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-.section__giftbasket--two__text-box {
-    border: 2px solid #C0B283;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    margin-bottom: 10%;
-}
-
-.section__giftbasket--two__text-box--2 {
-    border: 2px solid #C0B283;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    margin-bottom: 0%;
 }
 
 .section__giftbasket--one p {
@@ -123,10 +77,10 @@
 }
 
 .section__giftbasket--two {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     width: 35%;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .section__giftbasket--two p {
@@ -137,83 +91,32 @@
 .section__giftbasket--small {
     display: flex;
     flex-direction: column;
-    /* background-color: #fff; */
-    /* height: 48%; */
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    height: 48%;
 }
 
 .section__giftbasket--small img {
     height: 75%;
     object-fit: cover;
-
-    border: 2px solid #C0B283;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    
+    border-radius: 5px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-.gift-basket__flexbox {
-    padding-bottom: 20%;
+    border-bottom: 2px solid #C0B283;
 }
 
 @media only screen and (min-width: 768px) {
     /* HERO */
 
-    .section__giftbasket--two__text-box p,
-    .section__giftbasket--two__text-box--2 p {
+    .section__giftbasket--two__text-box p {
         font-size: 14px;
         line-height: 24px;
     }
 }
 
 @media only screen and (min-width: 1240px) {
-    /* HERO */
-      .about .section-5__info-box__card {
-        padding: 0;
-    }
-
-    .about {
-        padding: 7%;
-    }
-
-    .about:first-of-type {
-        padding: 0;
-    }
-    
-    .about .section-5__info-box__card {
-        height: 500px;
-    }
-
-    .about .section-6__info-box__card {
-        background-color: #fff;
-        padding: 0;
-        border: none;
-        box-shadow: none;
-    }
-
-    .about .section-6__info-box__info {
-        background-image: url('../images/baggrund_gavekurv.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        width: 100%;
-        padding: 12%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about .section-6__info-box__heading {
-        opacity: 100%;
-        color: #465048;
-        font-size: 60px;
-    }
-
-    .about .section-6__info-box__card {
-        display: block;
-        height: 100%;
-    }
-
     /* FARS DAG */
     section.section-5__info-box.gift-basket {
         padding: 0;
@@ -266,14 +169,6 @@
 
     .section__giftbasket--titles h3 {
         font-size: 26px;
-    }
-
-    .section__giftbasket--one img {
-        height: 600px;
-    }
-
-    .section__giftbasket--small img {
-        height: 300px;
     }
 
     .gift-basket .section-4__design-din-kurv__info-box {
