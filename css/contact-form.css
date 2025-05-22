@@ -101,6 +101,19 @@
     padding: 3.5% 0%;
 }
 
+.section-8__faq--contact {
+    padding: 0% 7% 20% 7%;
+}
+
+/* CONTACT FORM */
+
+.section__contact-form {
+    background-color: red;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 20%;
+}
+
 @media only screen and (min-width: 768px) {
     .section__map__map-window {
         height: 350px;
@@ -165,4 +178,21 @@
     .section__map__opening-hours--text {
         font-size: 20px;
     }
+
+    .section__map {
+        padding-bottom: 10%;
+    }
+
+    .contact {
+        padding: 0;
+    }
+
+    .section-8__faq--contact {
+        padding: 0% 7% 10% 7%;
+    }
+
+    .section__contact-form {
+        margin-bottom: 10%;
+    }
+
 }
