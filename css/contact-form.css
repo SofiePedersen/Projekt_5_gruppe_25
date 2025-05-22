@@ -1,0 +1,95 @@
+.contact:first-of-type {
+    padding: 7%;
+    padding-bottom: 20%;
+}
+
+.contact {
+    padding: 20% 7%;
+}
+
+.contact .section-6__info-box__info {
+    padding: 10% 7%;
+}
+
+.contact .section-6__info-box__card{
+    background-color: #465048;
+}
+
+.contact .section-6__info-box__image-box {
+    background-image: url('../images/liwira_butik.webp');
+}
+
+.contact .section-6__info-box__heading {
+    color: #F1EDE6;
+}
+
+.contact .section-2__info-box{
+    padding: 10% 7%;
+}
+
+.contact .section-6__info-box__text {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+/* GOOGLE MAPS */
+
+.section__map {
+    padding: 0% 7% 20% 7%;
+}
+
+.section__map-wrapper {
+    padding: 7%;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section__map__titles {
+    padding: 7% 0% 7% 0%;
+}
+
+.section__map__map-window {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+}
+
+.section__map__map-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.section__map__map-text p {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.section__map__contact {
+    padding: 10% 0% 10% 0%;
+}
+
+.section__map__contact--phone {
+    display: flex;
+    align-items: center;
+}
+
+.section__map__contact--mail {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.section__map__contact--phone a,
+.section__map__contact--mail a {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
