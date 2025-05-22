@@ -101,13 +101,20 @@
 }
 
     /* PRODUCTS - FARS DAG */
+
 .section-7__farsdag {
-    margin-bottom: 8%;
+    margin-bottom: 7%;
+    background-color: #F1EDE6;
+    padding: 10% 0%;
 }
 
 .section-7__farsdag-wrapper {
     padding: 0% 7% 3% 7%;
 }
+
+.section-7__farsdag.special {
+    margin-bottom: 0;
+    }
 
 .section-7__farsdag__overflow-box {
     width: 100%;
@@ -143,6 +150,7 @@
     border-radius: 7px;
     border: 2px solid #C0B283;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
 }
 .section-7__farsdag__img-box {
     margin-left: 0;
@@ -181,7 +189,7 @@
 
     display: flex;
     justify-content: space-between;
-    gap: 4%;
+    gap: 3%;
 
     overflow-y: auto;
 
@@ -212,7 +220,6 @@
     border: 2px #C0B283 solid;
     border-radius: 7px;
     overflow: hidden;
-    margin-bottom: 5%;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -446,6 +453,10 @@
         padding: 0%;
     }
 
+    .section-7__farsdag {
+    padding: 4% 0%;
+}
+
     .products .section-6__info-box__image-box{
         height: 400px;
     }
@@ -457,6 +468,10 @@
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+
+    .special {
+    margin-bottom: 0;
     }
     
    .products .section-6__info-box__heading{
@@ -565,7 +580,7 @@
         color: #465048;
         font-size: 60px;
     }
-
+    
     .products .section-6__info-box__card {
         display: block;
         height: 100%;
