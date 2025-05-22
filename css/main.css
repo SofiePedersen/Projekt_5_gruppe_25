@@ -37,7 +37,7 @@ h3{
   color: #465048;
 }
 
-p, a{
+p, a, .p{
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;

@@ -98,15 +98,41 @@
     background-position: center;
 }
 
-.content--flexbox {
+.section__my-basket__info--card__title {
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #C0B283;
     padding: 5%;
 }
 
-.content--flexbox img {
+.section__my-basket__info--card__title img {
     margin-right: 5%;
+}
+
+.form-container {
+    padding: 5%;
+}
+
+.form-container form {
+}
+
+.form-container label {
+    font-size: 16px;
+}
+
+.card-textarea {
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 100%;
+    height: 225px;
+    margin-top: 5%;
+    margin-bottom: -4px;
+    padding: 5%;
+    font-style: italic;
+}
+
+.card-textarea::placeholder {
+    opacity: 75%;
+    color: #465048;
 }
 
 /*Konfirmanden skrives med tyk
