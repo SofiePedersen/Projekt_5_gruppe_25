@@ -28,5 +28,87 @@
     display: flex;
     align-items: center;
     border-bottom: 2px solid #C0B283;
-    padding: 3%;
+    padding: 5%;
 }
+
+.content--flexbox img {
+    margin-right: 5%;
+}
+
+.section__my-basket__info--content__wrapper {
+    background-color: #F8EFE2;
+    border-bottom: 2px solid #C0B283;
+
+    padding: 5%;
+}
+
+.section__my-basket__info--content__card {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.section__my-basket__info--content__card:last-of-type {
+    margin-bottom: 0%;
+}
+
+.content-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content--product-image--1,
+.content--product-image--2,
+.content--product-image--3,
+.content--product-image--4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    margin-right: 5%;
+}
+
+.content--product-image--1 {
+    background-image: url('../product_images/speedtsberg_flag.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content--product-image--2 {
+    background-image: url('../product_images/lagurus_buket.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content--product-image--3 {
+    background-image: url('../product_images/summerbird_lille.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content--product-image--4 {
+    margin-bottom: 0;
+    background-image: url('../product_images/most_naturfri.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content--flexbox {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #C0B283;
+    padding: 5%;
+}
+
+.content--flexbox img {
+    margin-right: 5%;
+}
+
+/*Konfirmanden skrives med tyk
+kurvens indhold skrives med tyk,
+se kort skal skrives med tyk*/
