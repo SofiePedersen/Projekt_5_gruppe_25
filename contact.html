@@ -301,19 +301,39 @@
 
 
 <section class="section__contact-form">
+
             <div class="kontakt-content-wrapper">
                 <h2>Kontaktformular</h2>
                 <p>Skriv en mail til os</p>
                     <div class="kontakt-wrapper">
                         <form id="kontaktForm">
 
+                        <div class="email__container">
+                                <label class="email-label" for="email">Din e-mail</label>
+                                <input type="email" id="email" placeholder="skriv din e-mail her" required>
+                        </div>
+
+                        <div class="radios">
+                            <h2>Henvendelse</h2>
+                        </div>
+            
+                        <div class="checkbox-wrapper">
+                            <label class="checkbox-label"><input class="checkbox-radio" type="radio" name="henvendelse" value="Produkt">
+                                    <span class="radio"></span>Produkt</label>
+                                <label class="checkbox-label"><input class="checkbox-radio" type="radio" name="henvendelse" value="Job">
+                                    <span class="radio"></span>Job</label>
+                                <label class="checkbox-label"><input class="checkbox-radio" type="radio" name="henvendelse" value="Ventetid">
+                                    <span class="radio"></span>Ventetid</label>
+                                    <label class="checkbox-label"><input class="checkbox-radio" type="radio" name="henvendelse" value="Andet">
+                                        <span class="radio"></span>Andet</label>
+                            </div>
+        
+
 
                         
                     </div>
             </div>
-                        </form>
-
-
+        </form>
  </section>
 
 
