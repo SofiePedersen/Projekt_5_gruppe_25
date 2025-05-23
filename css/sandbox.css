@@ -36,7 +36,7 @@
 
 .about .section-5__info-box__card{
     border: none;
-    border-radius: none;
+    border-radius: 0;
     box-shadow: none;
 }
 
@@ -306,7 +306,7 @@
 
 .section__giftbasket--cards {
     display: flex;
-    flex: row;
+    flex-direction: row;
     gap: 5%;
 }
 
