@@ -91,6 +91,29 @@
     display: block;
 }
 
+.desktop-dropdown .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #465048;
+    padding: 0;
+    margin-top: 0.5rem;
+    z-index: 999;
+    
+}
+
+.desktop-dropdown.open .dropdown {
+    display: block;
+}
+
+.desktop-dropdown {
+    position: relative;
+}
+
+.headerBottom {
+    background-color: red;
+}
+
+
 @media only screen and (min-width: 768px) {
 
 }
@@ -101,8 +124,12 @@
     .small-header-burgermenu {
             display: none;
     }
+<<<<<<< Updated upstream
 
     .burger-menu-content {
         display: none;
     }
 }
+=======
+}
+>>>>>>> Stashed changes
