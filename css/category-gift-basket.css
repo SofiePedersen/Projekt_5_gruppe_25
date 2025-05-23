@@ -229,6 +229,89 @@
     width: 30px;
 }
 
+/* GAVEKURVE - KORT */
+.section__giftbasket-wrapper {
+    padding: 7%;
+    background-color: #F1EDE6;
+}
+
+.section__giftbasket--titles h2,
+.section__giftbasket--titles h3 {
+    color: #fff;
+}
+
+.section-5__info-box.gift-basket {
+    padding-top: 0%;
+}
+
+.section__giftbasket--titles {
+    margin-bottom: 7%;
+}
+
+.section__giftbasket--cards {
+    display: flex;
+    flex: row;
+    gap: 5%;
+}
+
+.section__giftbasket--one {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.section__giftbasket--one__text-box,
+.section__giftbasket--two__text-box {
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section__giftbasket--one p {
+    font-size: 16px;
+}
+
+.section__giftbasket--one img{
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #C0B283;
+}
+
+.section__giftbasket--two {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.section__giftbasket--two p {
+    font-size: 10px;
+    line-height: normal;
+}
+
+.section__giftbasket--small {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    height: 48%;
+}
+
+.section__giftbasket--small img {
+    height: 75%;
+    object-fit: cover;
+    
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 2px solid #C0B283;
+}
+
 @media only screen and (min-width: 768px) {
     .form-container label {
         font-size: 18px;
@@ -264,6 +347,12 @@
     .content--product-image--4 {
         width: 150px;
         height: 150px;
+    }
+
+    .section__giftbasket--two__text-box p,
+    .section__giftbasket--two__text-box--2 p {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
@@ -346,5 +435,44 @@
 
     .section__category-gift__product-image img {
         height: 20%;
+    }
+
+        .section__giftbasket--one {
+        width: 33%;
+    }
+
+    .section__giftbasket--cards {
+        gap: 2%;
+    }
+
+    .section__giftbasket--small {
+        height: 100%;
+        width: 50%;
+    }
+
+    .section__giftbasket--small img {
+        height: 100%;
+    }
+
+    .section__giftbasket--two {
+        display: flex;
+        flex-direction: row;
+        width: 66%;
+        gap: 3%;
+    }
+
+    .section__giftbasket--two p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .section__giftbasket-wrapper {
+        background-color: #F1EDE6;
+        padding: 7%;
+    }
+
+    .section__giftbasket--titles h2,
+    .section__giftbasket--titles h3 {
+        color: #465048;
     }
 }
