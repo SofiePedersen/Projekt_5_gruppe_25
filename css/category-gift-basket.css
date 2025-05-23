@@ -357,6 +357,32 @@
 
 @media only screen and (min-width: 1240px) {
 
+    .desktop-wrapper {
+        display: flex;
+    }
+
+    .section__category-gift__product-image {
+        width: 50%;
+    }
+
+    .section__my-basket__info {
+        width: 50%;
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .section__category-gift__product-image--img-box {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .content-name, 
+    .content-brand, 
+    .content-amount {
+        font-size: 20px;
+    }
+
     .section__my-basket__title {
         padding: 5%;
         padding-left: 4%;
@@ -384,6 +410,8 @@
     .content--product-image--3,
     .content--product-image--4 {
         margin-right: 4%;
+        width: 100px;
+        height: 100px;
     }
 
     .section__my-basket__info--card__title {
@@ -403,7 +431,7 @@
     .section__my-basket__info--card__title p,
     .content--flexbox p,
     .section__my-basket__info--title p {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .section__my-basket__info--card__title img,
