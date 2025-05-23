@@ -126,6 +126,4 @@ subDropdownItems.forEach(function (item) {
         });
     });
 
-
-
-    //Mikkel's Javascript - SLUT
+//Mikkel's Javascript - SLUT
