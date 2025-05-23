@@ -53,6 +53,10 @@
     background-color: #C0B283;
 }
 
+.headerlist li a:hover {
+    text-decoration: underline;
+}
+
 .headerlink {
     color: #fff;
     text-decoration: none;
@@ -100,5 +104,9 @@
 
     .small-header-burgermenu {
             display: none;
+    }
+
+    .burger-menu-content {
+        display: none;
     }
 }
