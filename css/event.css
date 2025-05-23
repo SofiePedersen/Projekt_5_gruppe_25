@@ -45,7 +45,7 @@
 
 .section__giftbasket--cards {
     display: flex;
-    flex: row;
+    flex-direction: row;
     gap: 5%;
 }
 
