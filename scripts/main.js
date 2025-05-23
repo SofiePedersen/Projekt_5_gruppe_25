@@ -78,8 +78,8 @@ const burgerIcon = document.getElementById("burgermenu");
     });
 
     const dropdownItems = [
-        document.getElementById("om-dropdown-item"),
-        document.getElementById("frivillig-dropdown-item")
+        document.getElementById("gavekurve-dropdown-item"),
+        document.getElementById("produkter-dropdown-item")
     ];
 
     dropdownItems.forEach(function (item) {
@@ -106,6 +106,17 @@ const burgerIcon = document.getElementById("burgermenu");
         });
     });
 
+const subDropdownItems = document.querySelectorAll(".has-sub-dropdown");
+
+subDropdownItems.forEach(function (item) {
+    const link = item.querySelector("a");
+    link.addEventListener("click", function (e) {
+        e.preventDefault(); // prevent the page from jumping
+        e.stopPropagation();// prevent the even from bubbling up
+        item.classList.toggle("open");
+    });
+});
+
     // Luk dropdowns ved klik udenfor
     document.addEventListener("click", (e) => {
         desktopDropdowns.forEach((item) => {
@@ -114,5 +125,7 @@ const burgerIcon = document.getElementById("burgermenu");
             }
         });
     });
+
+
 
     //Mikkel's Javascript - SLUT
