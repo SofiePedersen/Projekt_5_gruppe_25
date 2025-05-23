@@ -140,17 +140,18 @@ header {
 
 .header__bottom {
     height: 60px;
+
     background-color: #465048;
     border: 2px solid #C0B283;
     border-left: none;
     border-right: none;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
-.header__bottom ul {
+.header__bottom .desktop-dropdown-wrapper {
     width: 50%;
     height: 100%;
     margin-left: auto;
