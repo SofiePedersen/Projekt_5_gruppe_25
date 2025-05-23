@@ -72,6 +72,7 @@ const burgerIcon = document.getElementById("burgermenu");
             showMenu.style.display = "none";
         } else {
             showMenu.style.display = "block";
+            showMenu.style.position = "absolute"
         }
     });
 

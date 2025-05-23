@@ -1,20 +1,28 @@
-
-.small-header-burgermenu {
-    padding: 10px 15px;
+.header--flexbox {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
-
 
 .open-burger-menu {
     background-color: white;
     max-width: 100%;
+    width: 300px; /* Optional: Set a fixed width for better layout */
     max-height: 200vh;
-    border-right: 1px solid #d0d1d3;
-    top: 0px;
-    left: 0;
+    border-left: 1px solid #d0d1d3; /* Changed from border-right */
+    top: 20;
+    right: 0; /* Move it to the right side */
+    z-index: 1000;
     display: none;
+}
+
+.small-header-burgermenu {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.small-header-burgermenu img {
+    margin-left: 15%;
 }
 
 .burger-menu-top {
