@@ -235,9 +235,8 @@
     background-color: #F1EDE6;
 }
 
-.section__giftbasket--titles h2,
-.section__giftbasket--titles h3 {
-    color: #fff;
+.section__giftbasket-wrapper:last-of-type {
+    padding-top: 0;
 }
 
 .section-5__info-box.gift-basket {
@@ -469,10 +468,5 @@
     .section__giftbasket-wrapper {
         background-color: #F1EDE6;
         padding: 7%;
-    }
-
-    .section__giftbasket--titles h2,
-    .section__giftbasket--titles h3 {
-        color: #465048;
     }
 }
