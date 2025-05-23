@@ -17,25 +17,36 @@
 }
 
 .section__category-gift__product-image__circles {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 60%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: -20%;
-    margin-bottom: 17%;
+    justify-content: center;
+}
+
+.section__category-gift__product-image--img-box {
+    background-image: url('/generated_images/konfirmand_stor.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 650px;
+    border-radius: 7px;
+    padding-bottom: 5%;
 }
 
 .circle--current,
 .circle--next {
+    aspect-ratio: 1 / 1;
     width: 30px;
     height: 30px;
     border-radius: 100%;
-    aspect-ratio: 1 / 1;
+    margin-right: 5%;
 }
 
 .circle--current {
+    border: 2px solid #fff;
     background-color: #C0B283;
 }
 
@@ -44,10 +55,15 @@
     border: 2px solid #C0B283;
 }
 
+.circle--next:last-of-type {
+    margin-right: 0;
+}
+
 
 .section__my-basket__info {
     border: 2px solid #C0B283;
     border-radius: 7px;
+    margin-top: 7%;
 }
 
 .section__my-basket__info--title {
@@ -198,12 +214,23 @@
     justify-content: center;
 }
 
+.section__my-basket__bottom-btns:last-of-type {
+    border-left: 2px solid #C0B283;
+}
+
 .section__my-basket__bottom-btns p {
-    
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4%;
+}
+
+.section__my-basket__bottom-btns img {
+    width: 30px;
 }
 
 @media only screen and (min-width: 768px) {
-        .form-container label {
+    .form-container label {
         font-size: 18px;
     }
 
@@ -217,8 +244,26 @@
     }
 
     .section__my-basket__info--card__title img,
-    .content--flexbox img{
+    .content--flexbox img,
+    .content--bottom img {
         width: 10%;
+    }
+
+    .section__my-basket__bottom-btns p {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .section__my-basket__bottom-btns img {
+        width: 35px;
+    }
+
+    .content--product-image--1,
+    .content--product-image--2,
+    .content--product-image--3,
+    .content--product-image--4 {
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -233,7 +278,8 @@
         padding: 4%;
     }
 
-    .content--flexbox {
+    .content--flexbox,
+    .content--bottom {
         padding: 4%;
     }
 
@@ -273,7 +319,8 @@
     }
 
     .section__my-basket__info--card__title img,
-    .content--flexbox img{
+    .content--flexbox img,
+    .content--bottom img {
         width: 7%;
     }
 
@@ -283,5 +330,21 @@
 
     .card-textarea::placeholder {
         font-size: 16px;
+    }
+
+    .section__my-basket__info--card__title img {
+        margin-right: 4%;
+    }
+
+    .section__my-basket__bottom-btns {
+        padding: 5%;
+    }
+
+    .section__my-basket__bottom-btns img {
+        width: 50px;
+    }
+
+    .section__category-gift__product-image img {
+        height: 20%;
     }
 }
