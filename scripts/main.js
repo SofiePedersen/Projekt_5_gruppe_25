@@ -64,6 +64,7 @@ startAutoSlide();
 
 
 //Mikkel's Javascript - START
+
 const burgerIcon = document.getElementById("burgermenu");
     const showMenu = document.getElementById("showMenu");
 
