@@ -58,14 +58,21 @@
     align-items: flex-end;
 }
 
-.content--flexbox {
+.content--flexbox,
+.content--bottom {
     display: flex;
     align-items: center;
     border-bottom: 2px solid #C0B283;
     padding: 7%;
 }
 
-.content--flexbox img {
+.content--bottom {
+    border-bottom: none;
+    border-top: 2px solid #C0B283;
+}
+
+.content--flexbox img,
+.content--bottom img {
     margin-right: 7%;
 }
 
@@ -174,6 +181,25 @@
 
 .basket--bold {
     font-weight: 500;
+}
+
+.section__my-basket__info--bottom-btns {
+    display: flex;
+    background-color: #465048;
+    border-top: 2px solid #C0B283;
+}
+
+.section__my-basket__bottom-btns {
+    padding: 7%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__my-basket__bottom-btns p {
+    
 }
 
 @media only screen and (min-width: 768px) {
