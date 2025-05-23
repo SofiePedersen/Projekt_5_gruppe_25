@@ -11,6 +11,7 @@
         <!-- CSS & JS -->
         <script src="scripts/main.js" defer></script>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/category-gift-basket.css">
     </head>
     
     <body>
@@ -30,7 +31,92 @@
             <input class="header__search-bar__input" type="text" id="fname" name="fname">
             <div class="header__search-bar__icon"><img src="icons/search.svg" alt="search-icon"></div>
         </div>
-                <footer>
+
+        <section class="section__category-gift product-info">
+            <div class="bread-crumb-box">
+                <p class="bread-crumbs">gavekurve / konfirmanden / <span class="bread-crumbs-bold">den store gavekurv</span></p>
+            </div>
+
+            <div class="section__category-gift__product-image">
+                <img src="generated_images/konfirmand_stor.webp">
+                <div class="section__category-gift__product-image__circles">
+                    <div class="circle--current"></div>
+                    <div class="circle--next"></div>
+                    <div class="circle--next"></div>
+                    <div class="circle--next"></div>
+                </div>
+            </div>
+
+             <div class="section__my-basket__info">
+                <div class="section__my-basket__info--title">
+                    <div>
+                        <p><span class="basket--bold">Konfirmanden</span></p>
+                        <p>Den store gavekurv</p>
+                    </div>
+                    <div>
+                        <p><span class="basket--bold">499,-</span></p>
+                    </div>
+                </div>
+
+                <div class="section__my-basket__info--content">
+                    <div class="content--flexbox">
+                        <img src="icons/minus-square.svg" alt="icon-accordian-minus">
+                        <p><span class="basket--bold">Kurvens indhold</span></p>
+                    </div>
+
+                    <div class="section__my-basket__info--content__wrapper">
+                        <div class="section__my-basket__info--content__card">
+                            <div class="content--product-image--1"></div>
+                            <div class="content-container">
+                                <p class="content-name">Keramik flag</p>
+                                <p class="content-brand">Speedtsberg</p>
+                                <p class="content-amount">Antal: 1</p>
+                            </div>
+                        </div>
+                        <div class="section__my-basket__info--content__card">
+                            <div class="content--product-image--2"></div>
+                            <div class="content-container">
+                                <p class="content-name">Tørret buket</p>
+                                <p class="content-brand">Lagurus</p>
+                                <p class="content-amount">Antal: 1</p>
+                            </div>
+                        </div>
+                        <div class="section__my-basket__info--content__card">
+                            <div class="content--product-image--3"></div>
+                            <div class="content-container">
+                                <p class="content-name">Chokolade</p>
+                                <p class="content-brand">Summerbird</p>
+                                <p class="content-amount">Antal: 1</p>
+                            </div>
+                        </div>
+                        <div class="section__my-basket__info--content__card">
+                            <div class="content--product-image--4"></div>
+                            <div class="content-container">
+                                <p class="content-name">Økologisk æblemost</p>
+                                <p class="content-brand">Naturfri</p>
+                                <p class="content-amount">Antal: 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section__my-basket__info--card">
+                    <div class="section__my-basket__info--card__title">
+                        <img src="icons/minus-square.svg">
+                        <p><span class="basket--bold">Se kort</span></p>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <form>
+                        <label class="p" for="personalized-card">Tekst på kort (max. 400 tegn)</label>
+                        <textarea class="card-textarea" maxlength="400" name="personalized-card" placeholder="Her kan du ønske tillykke eller tak til en der fortjener det!"></textarea>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
             <div class="footer__top">
                 <div class="footer__top__icon">
                     <img class="footer__top__icon-img" src="icons/package.svg" alt="shipping-box-icon">

@@ -1,15 +1,49 @@
-.section__my-basket {
+.section__category-gift {
     padding: 7%;
 }
 
-.section__my-basket__title {
-    background-color: #465048;
-    border: 2px solid #C0B283;
-    border-radius: 7px;
-    color: #fff;
-    padding: 7%;
+.bread-crumbs-bold {
+    font-weight: 500;
+}
+
+.bread-crumb-box {
     margin-bottom: 7%;
 }
+
+.section__category-gift__product-image img {
+    width: 100%;
+    border-radius: 7px;
+    background-color: #465048;
+}
+
+.section__category-gift__product-image__circles {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20%;
+    margin-bottom: 17%;
+}
+
+.circle--current,
+.circle--next {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.circle--current {
+    background-color: #C0B283;
+}
+
+.circle--next {
+    background-color: #465048;
+    border: 2px solid #C0B283;
+}
+
 
 .section__my-basket__info {
     border: 2px solid #C0B283;
@@ -225,7 +259,3 @@
         font-size: 16px;
     }
 }
-
-/*Konfirmanden skrives med tyk
-kurvens indhold skrives med tyk,
-se kort skal skrives med tyk*/
