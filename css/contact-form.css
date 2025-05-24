@@ -148,18 +148,6 @@
     padding: 7%;
 }
 
-.cta-button {
-    background-color: #465048;
-    border: 2px solid #C0B283;
-    border-radius: 7px; 
-    height: 40px;
-    width: 150px;
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-size: 16px;
-    color: white
-}
 
 .cta-button:hover {
     cursor: pointer;
