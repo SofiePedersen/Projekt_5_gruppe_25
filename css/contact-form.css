@@ -108,20 +108,24 @@
 /* CONTACT FORM */
 
 .section__contact-form {
+    padding: 0% 7% 20% 7%;
     margin-bottom: 20%;
     display: flex;
     justify-content: center;
 }
+
 .kontakt-content-wrapper {
     padding: 7%;
     border: 2px solid #C0B283;
     border-radius: 7px;
+    width: 100%;
 }
 .kontakt-content-wrapper h2 {
     margin-bottom: 1rem;
 }
 
 .email__container input[type="email"] {
+    font-family: "Montserrat", sans-serif;
     background-color: rgba(200, 200, 200, 0.200);
     width: 100%; 
     padding: 10px;
@@ -129,7 +133,13 @@
     border: 2px solid #C0B283;
     border-radius: 7px; 
     font-size: 16px;
-    margin-top: 0.5rem;
+}
+
+.email__container p {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
 }
 .email__container input[type="email"]::placeholder {
     font-style: italic;
@@ -154,9 +164,8 @@
     padding-left: 50px;
     user-select: none;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     color: #465048;
 }
 
@@ -164,7 +173,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 
@@ -175,9 +184,9 @@
     width: 20px;
     height: 20px;
     background-color: white;
-    border: 2px solid #C0B283;
-    border-radius: 4px;
-    transition: background-color 0.3s, border-color 0.3s;
+    border: 2px solid #666;
+    border-radius: 7px;
+    transition: background-color 0.5s, border-color 0.5s;
 }
 /* Når radio-knappen er valgt (der kan kun vælges én) */
 input[type="radio"]:checked + .radio {
