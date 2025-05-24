@@ -132,31 +132,33 @@ subDropdownItems.forEach(function (item) {
 
 // Definerer variabler ud fra HTML-elementer
 const form = document.getElementById("kontaktForm"); // Formular
-const emailInput = document.getElementById("email"); // emailfelt
-const beskedTextarea = document.getElementById("besked"); // beskedfelt
 
-// Radios hentes fra DOM
-const radios = document.querySelectorAll('input[name="henvendelse"]');
+  // event, der kører når brugeren trykker send
+  form.addEventListener("submit", function(event) {
+    event.preventDefault(); // Forhindrer siden i at refreshe  
+
+const emailInput = document.getElementById("email"); // emailfelt
+const radios = document.querySelectorAll('input[name="henvendelse"]'); // Radios hentes fra DOM
+const beskedTextarea = document.getElementById("besked"); // beskedfelt
 
 // Funktion med for-loop, der tjekker hvilken radio-knap der er valgt 
 function hentValgtHenvendelse() {
     for (let i = 0; i < radios.length; i++) {
       if (radios[i].checked) {
-        
         // Break for at stoppe loop så snart den valgte er fundet
         return radios[i].value;
       }
     }
-    // Hvis ingen er valgt, returneres der "ingen valgt"
+    // Hvis ingen er valgt, returneres der "null"
     return null;
   }
 
+// funktion, der tjekker om formularen kan godkendes
   function validerFormular() {
+    let email = emailInput.value;
+    let valgt = hentValgtHenvendelse();
+    let besked = beskedTextarea.value;
 
-    const email = emailInput.value;
-    const valgt = hentValgtHenvendelse();
-    const besked = beskedTextarea.value;
-  
     // Kontrolstruktur: if-else
   
     if (!email.includes("@")) {
@@ -171,7 +173,30 @@ function hentValgtHenvendelse() {
       alert("Du skal skrive en besked");
       return false;
     }
+
+    //.trim gør, at den ikke godkender, hvis der f.eks. kun er indtastet mellemrum 
     return true; // Indtastede oplysninger er godkendt 
   }
+    // Danner objekt med de indtastede oplysninger 
+    
+    if (validerFormular()) {
+    const formData = {
+      email: emailInput.value,
+      henvendelse: hentValgtHenvendelse(),
+      besked: beskedTextarea.value,
+    };
+      
+      console.log("Formular data:");
+      console.log("E-mail:", formData.email);
+      console.log("Henvendelse:", formData.henvendelse);
+      console.log("Besked:", formData.besked);
 
+      alert("Tak for din besked, vi vender tilbage hurtigst muligt. - Liwira");
+
+      form.reset(); // Nulstiller formularen, hvis den er godkendt
+
+    } else {
+      console.log("Fejl i input. Formularen blev ikke sendt.");
+    }
+});
 //Peters Javascript - SLUT
