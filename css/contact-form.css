@@ -140,17 +140,6 @@
     margin-bottom: 20px;
 }
 
-.kontaktform-submit-btn-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 7%;
-}
-
-.cta-btn:hover {
-    cursor: pointer;
-    background-color: #C0B283;
-}
-
 /*  Buttons og labels i kontaktformular styles herunder */
 
 /* Skjuler standard layout på radioknapper */
@@ -208,6 +197,33 @@ input[type="radio"]:checked:hover + .radio {
     background-color: gray;
 }
 
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 20px;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    background-color: rgba(200, 200, 200, 0.2);
+    font-family: "Montserrat", sans-serif;
+    resize: none;
+  }
+  textarea::placeholder {
+    font-style: italic;
+    color: #666;
+  }
+
+.kontaktform-submit-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    background-color: #C0B283;
+}
 
 
 
