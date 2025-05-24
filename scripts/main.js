@@ -130,5 +130,48 @@ subDropdownItems.forEach(function (item) {
 
 //Peters Javascript - START
 
+// Definerer variabler ud fra HTML-elementer
+const form = document.getElementById("kontaktForm"); // Formular
+const emailInput = document.getElementById("email"); // emailfelt
+const beskedTextarea = document.getElementById("besked"); // beskedfelt
+
+// Radios hentes fra DOM
+const radios = document.querySelectorAll('input[name="henvendelse"]');
+
+// Funktion med for-loop, der tjekker hvilken radio-knap der er valgt 
+function hentValgtHenvendelse() {
+    for (let i = 0; i < radios.length; i++) {
+      if (radios[i].checked) {
+        
+        // Break for at stoppe loop så snart den valgte er fundet
+        return radios[i].value;
+      }
+    }
+    // Hvis ingen er valgt, returneres der "ingen valgt"
+    return null;
+  }
+
+  function validerFormular() {
+
+    const email = emailInput.value;
+    const valgt = hentValgtHenvendelse();
+    const besked = beskedTextarea.value;
+  
+    // Kontrolstruktur: if-else
+  
+    if (!email.includes("@")) {
+      alert("E-mail skal være gyldig");
+      return false;
+    }
+    if (valgt === null) {
+      alert("Vælg hvorfor du henvender dig");
+      return false;
+    }
+    if (besked.trim() === "") {
+      alert("Du skal skrive en besked");
+      return false;
+    }
+    return true; // Indtastede oplysninger er godkendt 
+  }
 
 //Peters Javascript - SLUT
