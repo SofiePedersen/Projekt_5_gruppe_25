@@ -108,7 +108,6 @@
 /* CONTACT FORM */
 
 .section__contact-form {
-    width: 100%;
     margin-bottom: 20%;
     display: flex;
     justify-content: center;
@@ -117,8 +116,6 @@
     padding: 7%;
     border: 2px solid #C0B283;
     border-radius: 7px;
-    display: flex;
-    flex-direction: column;
 }
 .kontakt-content-wrapper h2 {
     margin-bottom: 1rem;
@@ -137,22 +134,81 @@
 .email__container input[type="email"]::placeholder {
     font-style: italic;
 }
-.radios {
+
+.radios-tekst {
     margin-top: 30px;
     margin-bottom: 20px;
-
 }
+
 .kontaktform-submit-btn-wrapper {
     display: flex;
     justify-content: center;
     padding: 7%;
 }
 
-
-.cta-button:hover {
+.cta-btn:hover {
     cursor: pointer;
     background-color: #C0B283;
 }
+
+/*  Buttons og labels i kontaktformular styles herunder */
+
+/* Skjuler standard layout på radioknapper */
+.checkbox-radio {
+    display: none;
+}
+/* Styling af labels generelt */
+/* user select: none, gør at teksten ikke kan markeres */
+.kontakt-content-wrapper .checkbox-label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 50px;
+    user-select: none;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #465048;
+}
+
+.checkbox-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    margin-bottom: 20px;
+}
+
+
+/* Egen styling af radio-knapper */
+.radio {
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid #C0B283;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+/* Når radio-knappen er valgt (der kan kun vælges én) */
+input[type="radio"]:checked + .radio {
+    background-color: #465048;
+}
+/* Flueben til valgt radio-knap */
+input[type="radio"]:checked + .radio::after {
+    content: '\2713'; /* Unicode flueben */
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 3px;
+}
+/* Hover-effekt for radio-knapper */
+input[type="radio"]:not(:checked):hover + .radio,
+input[type="radio"]:checked:hover + .radio {
+    background-color: gray;
+}
+
+
 
 
 @media only screen and (min-width: 768px) {
