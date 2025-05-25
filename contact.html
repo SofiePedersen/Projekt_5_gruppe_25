@@ -307,8 +307,7 @@
                 <h3>Skriv en mail til os</h3>
             
                     <div class="kontakt-wrapper">
-                        <form id="kontaktForm">
-
+                        <form id="kontaktForm" novalidate>
                         <div class="email__container">
                                 <label class="email-label" for="email"><p>Din e-mail</p></label>
                                 <input type="email" id="email" placeholder="skriv din e-mail her" required>
@@ -331,15 +330,13 @@
                     </div>
                     
                     <label for="besked"><h3>Tilføj din henvendelse her</h3></label>
-                    <textarea id="besked" placeholder="Her kan du skrive, hvad du ønsker mere information om, eller hvis der er noget du ønsker at informere os om"></textarea>
+                    <textarea id="besked" placeholder="Her kan du skrive, hvad du ønsker mere information om, eller hvis der er noget du ønsker at informere os om" required></textarea>
                     
                     <div class="kontaktform-submit-btn-wrapper">
                         <button type="submit" class="cta-btn">Send</button>
                     </div>    
     
-                </form>
-
-                         
+                </form>       
              </div>
  </section>
 

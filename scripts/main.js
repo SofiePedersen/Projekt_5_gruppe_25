@@ -1,3 +1,5 @@
+console.log("tester at javascript kører");
+
 // SEKTION - Alberte, slide show, START
 let slideIndex = 1;
 let autoSlideInterval;
@@ -128,12 +130,16 @@ subDropdownItems.forEach(function (item) {
 
 //Mikkel's Javascript - SLUT
 
+
+
 //Peters Javascript - START
 
 // Definerer variabler ud fra HTML-elementer
+document.addEventListener("DOMContentLoaded", function () {
 const form = document.getElementById("kontaktForm"); // Formular
 
-  // event, der kører når brugeren trykker send
+  // event, der kører når brugeren trykker på send-knappen
+  console.log("Formular fundet:", form);
   form.addEventListener("submit", function(event) {
     event.preventDefault(); // Forhindrer siden i at refreshe  
 
@@ -155,9 +161,9 @@ function hentValgtHenvendelse() {
 
 // funktion, der tjekker om formularen kan godkendes
   function validerFormular() {
-    let email = emailInput.value;
-    let valgt = hentValgtHenvendelse();
-    let besked = beskedTextarea.value;
+    const email = emailInput.value;
+    const valgt = hentValgtHenvendelse();
+    const besked = beskedTextarea.value;
 
     // Kontrolstruktur: if-else
   
@@ -178,7 +184,7 @@ function hentValgtHenvendelse() {
     return true; // Indtastede oplysninger er godkendt 
   }
     // Danner objekt med de indtastede oplysninger 
-    
+
     if (validerFormular()) {
     const formData = {
       email: emailInput.value,
@@ -198,5 +204,6 @@ function hentValgtHenvendelse() {
     } else {
       console.log("Fejl i input. Formularen blev ikke sendt.");
     }
-});
+    });
+}); 
 //Peters Javascript - SLUT
