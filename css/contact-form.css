@@ -108,7 +108,7 @@
 /* CONTACT FORM */
 
 .section__contact-form {
-    padding: 0% 7% 20% 7%;
+    padding: 0% 7% 7% 7%;
     display: flex;
     justify-content: center;
     
@@ -312,10 +312,6 @@ textarea {
 
     .section-8__faq--contact {
         padding: 0% 7% 10% 7%;
-    }
-
-    .section__contact-form {
-        margin-bottom: 10%;
     }
 
     .checkbox-wrapper {
