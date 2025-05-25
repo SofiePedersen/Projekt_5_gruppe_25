@@ -1,4 +1,3 @@
-
 //Peters Javascript - START
 
 // Definerer variabler ud fra HTML-elementer
@@ -6,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("kontaktForm"); // Formular
     
       // event, der kører når brugeren trykker på send-knappen
-      console.log("Formular fundet:", form);
       form.addEventListener("submit", function(event) {
         event.preventDefault(); // Forhindrer siden i at refreshe  
     
