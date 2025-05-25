@@ -317,4 +317,8 @@ textarea {
         margin-bottom: 10%;
     }
 
+    .checkbox-wrapper {
+        display: flex;
+    }
+
 }
