@@ -10,9 +10,10 @@
 
         <!-- CSS & JS -->
         <script src="scripts/header.js" defer></script>
+        <script src="scripts/build-basket.js" defer></script>
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/build-basket.css">
     </head>
     
     <body>
@@ -84,61 +85,87 @@
             </div>
         </div>
 
-<!-- Header bottom menu - START -->
-        <div class="header__bottom" id="headerBottom">
-            <ul class="desktop-dropdown-wrapper">
-                <li class="desktop-dropdown">
-                    <a href="#">Vores gavekurve</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Konfirmanden</a></li>
-                        <li><a href="#">Bryllup</a></li>
-                        <li><a href="#">Barsel</a></li>
-                        <li><a href="#">Studenten</a></li>
-                        <li><a href="#">Fars dag</a></li>
-                        <li><a href="#">Medarbejdergaver</a></li>
-                        <li><a href="#">Fødselsdag</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Design din egen kurv</a></li>
-
-                <li class="desktop-dropdown">
-                    <a href="#">Produkter</a>
-                    <ul class="dropdown">
-                        <li class="has-sub-dropdown">
-                            <a href="#">Brands</a>
-                            <ul class="sub-dropdown">
-                                <li><a href="#">Meraki</a></li>
-                                <li><a href="#">Lagurus</a></li>
-                                <li><a href="#">AYA & IDA</a></li>
-                                <li><a href="#">SIRIUS</a></li>
-                                <li><a href="#">Aida</a></li>
-                                <li><a href="#">Maileg</a></li>
+        <!-- Header bottom menu - START -->
+                <div class="header__bottom" id="headerBottom">
+                    <ul class="desktop-dropdown-wrapper">
+                        <li class="desktop-dropdown">
+                            <a href="#">Vores gavekurve</a>
+                            <ul class="dropdown">
+                                <li><a href="#">Konfirmanden</a></li>
+                                <li><a href="#">Bryllup</a></li>
+                                <li><a href="#">Barsel</a></li>
+                                <li><a href="#">Studenten</a></li>
+                                <li><a href="#">Fars dag</a></li>
+                                <li><a href="#">Medarbejdergaver</a></li>
+                                <li><a href="#">Fødselsdag</a></li>
                             </ul>
                         </li>
-                        <li class="has-sub-dropdown">
-                            <a href="#">Læs mere</a>
-                            <ul class="sub-dropdown">
-                                <li><a href="#">Historien bag</a></li>
-                                <li><a href="#">Vores værdier</a></li>
-                                <li><a href="#">Bæredygtighed</a></li>
-                                <li><a href="#">Produktion</a></li>
-                                <li><a href="#">Teamet</a></li>
-                                <li><a href="#">Presse</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Samarbejde</a></li>
+
+                        <li><a href="#">Design din egen kurv</a></li>
+
+                        <li class="desktop-dropdown">
+                            <a href="#">Produkter</a>
+                            <ul class="dropdown">
+                                <li class="has-sub-dropdown">
+                                    <a href="#">Brands</a>
+                                    <ul class="sub-dropdown">
+                                        <li><a href="#">Meraki</a></li>
+                                        <li><a href="#">Lagurus</a></li>
+                                        <li><a href="#">AYA & IDA</a></li>
+                                        <li><a href="#">SIRIUS</a></li>
+                                        <li><a href="#">Aida</a></li>
+                                        <li><a href="#">Maileg</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-sub-dropdown">
+                                    <a href="#">Læs mere</a>
+                                    <ul class="sub-dropdown">
+                                        <li><a href="#">Historien bag</a></li>
+                                        <li><a href="#">Vores værdier</a></li>
+                                        <li><a href="#">Bæredygtighed</a></li>
+                                        <li><a href="#">Produktion</a></li>
+                                        <li><a href="#">Teamet</a></li>
+                                        <li><a href="#">Presse</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Samarbejde</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
+
+                        <li><a href="about-us.html">Om os</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
                     </ul>
-                </li>
+                </div>
+        <!-- header bottom menu - SLUT -->
 
-                <li><a href="about-us.html">Om os</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </div>
-<!-- header bottom menu - SLUT -->        
+        <section class="section__build-basket">
+            <div class="bread-crumb-box">
+                <p class="bread-crumbs"> Design din egen kurv</p>
+            </div>
 
+            <div class="build-basket__step-1-wrapper">
+                <div class="build-basket--headings">
+                    <h2>Step 1</h2>
+                    <h3>Vælg produkter</h3>
+                </div>
+                <div class="build-basket--selections">
+                    <h3>Produkter</h3>
+                    <p class="build-basket--selections--categories" id="categorySweets">Søde sager</p>
+                        <div class="card-box"></div>
+                    <p class="build-basket--selections--categories" id="categorySkincare">Hudpleje</p>
+                        <div class="card-box"></div>
+                    <p class="build-basket--selections--categories">Drikkevare</p>
+                        <div class="card-box"></div>
+                    <p class="build-basket--selections--categories">Brugskunst</p>
+                        <div class="card-box"></div>
+                    <p class="build-basket--selections--categories">Lys</p>
+                        <div class="card-box"></div>
+                </div>
+            </div>
 
+            <div id="showarray"></div>
+        </section>
 
         <footer>
             <div class="footer__top">
