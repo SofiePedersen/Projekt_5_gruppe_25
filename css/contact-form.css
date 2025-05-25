@@ -109,9 +109,9 @@
 
 .section__contact-form {
     padding: 0% 7% 20% 7%;
-    margin-bottom: 20%;
     display: flex;
     justify-content: center;
+    
 }
 
 .kontakt-content-wrapper {
@@ -119,6 +119,7 @@
     border: 2px solid #C0B283;
     border-radius: 7px;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .kontakt-content-wrapper h2 {
     margin-bottom: 1rem;
