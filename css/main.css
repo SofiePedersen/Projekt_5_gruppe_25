@@ -91,11 +91,20 @@ p, a, .p{
     text-align: center;
 }
 
+.cta-btn:hover {
+    background-color: #293A2D;
+    cursor: pointer;
+}
+
 .cta-btn.hvid {
         color:#465048;
         background-color: #F1EDE6;
 }
 
+.cta-btn.hvid:hover {
+    background-color: #C0B283;
+    border: 2px solid #F1EDE6;
+}
 /* HEADER */
 
 header {
@@ -623,6 +632,10 @@ header {
     color: #fff;
 }
 
+.section-9__newsletter__form__input--submit:hover {
+    background-color: #293A2D;
+    cursor: pointer;
+}
 .section-9__newsletter__form__input-wrapper {
     display: flex;
     margin-top: 10px;
