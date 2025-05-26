@@ -30,11 +30,17 @@ document.addEventListener("DOMContentLoaded", function () {
         const valgt = hentValgtHenvendelse();
         const besked = beskedTextarea.value;
     
-        // Kontrolstruktur: if-else
-      
-        if (!email.includes("@")) {
-          alert("E-mail skal være gyldig");
-          return false;
+      //Validering af e-mail ud over standard
+        function gyldigEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+          }
+
+          // Kontrolstruktur: if-else 
+        
+        if (!gyldigEmail(email)) {
+            alert("Indtast en gyldig e-mail");
+            return false;
         }
         if (valgt === null) {
           alert("Vælg hvorfor du henvender dig");
