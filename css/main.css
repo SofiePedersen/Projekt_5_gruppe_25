@@ -867,6 +867,10 @@ must style the element specifically so it looks centered */
         display: block;
     }
 
+    #burgermenu__ikon {
+        display: none;
+    }
+
     
     
     /* SECTION 1 - HERO SLIDESHOW */
