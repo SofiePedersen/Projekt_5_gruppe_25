@@ -191,8 +191,6 @@ const categoryArt = document.getElementById('categoryArt');
 const categoryWaxes = document.getElementById('categoryWaxes');
 const selectedProductList = document.getElementById('selectedProductList');
 
-
-// QuerySelectorAll tager fat i alle elementer med classen card-box
 const cardBox = document.querySelectorAll('.card-box');
 
 //Der oprettes et click event som kalder function choosecategory med parameteret "candy".
@@ -201,8 +199,6 @@ categorySkincare.addEventListener('click', () => chooseCategory('skincare'));
 categoryDrinks.addEventListener('click', () => chooseCategory('drinks'));
 categoryArt.addEventListener('click', () => chooseCategory('art'));
 categoryWaxes.addEventListener('click', () => chooseCategory('waxes'));
-
-
 
 //Opretter en function der opretter et nyt product array baseret på det vi filter fra det oprindelige array
 function chooseCategory(chosenCategory) {
@@ -263,7 +259,7 @@ function chooseCategory(chosenCategory) {
 
 function createCard(filteredProducts, cardBoxIndex){
 
-    const showCards = document.createElement("div")
+    const showCards = document.createElement("div");
     showCards.classList.add("build-basket--cardbox");
     cardBox[cardBoxIndex].appendChild(showCards);
 
@@ -303,10 +299,9 @@ function createCard(filteredProducts, cardBoxIndex){
 
 const productsInBasket = [];
 
-function addToBasket(newItem) {
-    productsInBasket.push(newItem);
-    console.log(productsInBasket);
-
+function addToBasket(selectedItem) {
+    productsInBasket.push(selectedItem);
+    
     let html = '';
 
     for (let i = 0; i < productsInBasket.length; i++) {
