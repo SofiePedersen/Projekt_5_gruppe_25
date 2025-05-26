@@ -186,6 +186,10 @@ const products = [
 /* VARIABLER */
 const categorySweets = document.getElementById('categorySweets');
 const categorySkincare = document.getElementById('categorySkincare');
+const categoryDrinks = document.getElementById('categoryDrinks');
+const categoryArt = document.getElementById('categoryArt');
+const categoryWaxes = document.getElementById('categoryWaxes');
+
 
 // QuerySelectorAll tager fat i alle elementer med classen card-box
 const cardBox = document.querySelectorAll('.card-box');
@@ -193,6 +197,11 @@ const cardBox = document.querySelectorAll('.card-box');
 //Der oprettes et click event som kalder function choosecategory med parameteret "candy".
 categorySweets.addEventListener('click', () => chooseCategory('candy'));
 categorySkincare.addEventListener('click', () => chooseCategory('skincare'));
+categoryDrinks.addEventListener('click', () => chooseCategory('drinks'));
+categoryArt.addEventListener('click', () => chooseCategory('art'));
+categoryWaxes.addEventListener('click', () => chooseCategory('waxes'));
+
+
 
 //Opretter en function der opretter et nyt product array baseret på det vi filter fra det oprindelige array
 function chooseCategory(chosenCategory) {
@@ -218,6 +227,30 @@ function chooseCategory(chosenCategory) {
                 cardBox[1].innerHTML = '';
             } else {
                 createCard(filteredProducts, 1); //<--- Dette sendes med til createCard som parameter
+            };
+        break;
+
+        case "drinks":
+            if (cardBox[2].innerHTML !== ''){
+                cardBox[2].innerHTML = '';
+            } else {
+                createCard(filteredProducts, 2); //<--- Dette sendes med til createCard som parameter
+            };
+        break;
+
+        case "art":
+            if (cardBox[3].innerHTML !== ''){
+                cardBox[3].innerHTML = '';
+            } else {
+                createCard(filteredProducts, 3); //<--- Dette sendes med til createCard som parameter
+            };
+        break;
+
+        case "waxes":
+            if (cardBox[4].innerHTML !== ''){
+                cardBox[4].innerHTML = '';
+            } else {
+                createCard(filteredProducts, 4); //<--- Dette sendes med til createCard som parameter
             };
         break;
     
