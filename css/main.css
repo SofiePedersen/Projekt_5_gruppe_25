@@ -174,18 +174,6 @@ header {
     text-decoration: underline;
 }
 
-.small-header-burgermenu {
-    display: flex;
-    justify-content: space-between;
-}
-
-#burgermenu__ikon {
-display: none;
-}
-
-.burger-menu-content {
-display: none;
-}
 
 
 /* SECTION 1 - HERO SLIDESHOW */
@@ -878,6 +866,8 @@ must style the element specifically so it looks centered */
     .header__bottom {
         display: block;
     }
+
+    
     
     /* SECTION 1 - HERO SLIDESHOW */
 
