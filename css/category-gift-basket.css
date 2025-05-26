@@ -45,6 +45,11 @@
     margin-right: 5%;
 }
 
+.section__giftbasket--small,
+.section__giftbasket--one {
+    text-decoration: none;
+}
+
 .circle--current {
     border: 2px solid #fff;
     background-color: #C0B283;
