@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const valgt = hentValgtHenvendelse();
         const besked = beskedTextarea.value;
     
-      //Validering af e-mail ud over standard
+      //Validering af e-mail ud over standard 
+      // Regexpattern, der fortæller hvilke tegn der er nødvendige for validering
         function gyldigEmail(email) {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return emailRegex.test(email);
