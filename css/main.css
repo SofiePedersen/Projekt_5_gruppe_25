@@ -183,6 +183,8 @@ header {
     text-decoration: underline;
 }
 
+
+
 /* SECTION 1 - HERO SLIDESHOW */
 
 .section-1__slideshow {
@@ -877,6 +879,12 @@ must style the element specifically so it looks centered */
     .header__bottom {
         display: block;
     }
+
+    #burgermenu__ikon {
+        display: none;
+    }
+
+    
     
     /* SECTION 1 - HERO SLIDESHOW */
 
