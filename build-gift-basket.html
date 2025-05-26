@@ -167,18 +167,41 @@
             <div class="build-basket__step-2-wrapper">
                 <div class="build-basket--headings">
                     <h2>Step 2</h2>
-                    <h3>Tilføj Kort</h3>
+                    <h3>Tilføj kort</h3>
                 </div>
-                <div>
-                    <form>
-                        <label for=""></label>
-                        <textarea name=""></textarea>
-                        <div>
+                <div class="build-basket--card-area">
+                    <form class="build-basket__step-2__form">
+                        <label class="p" for="personalized-card">Tekst på kort (max. 400 tegn)</label>
+                        <textarea id="personalized-card" class="card-textarea" maxlength="400" name="personalized-card" placeholder="Her kan du ønske tillykke eller tak til en der fortjener det!"></textarea>
+                        <div class="step-2__check-box-flex">
                             <input type="checkbox" name="add-card">
-                            <label for="add-card">Jeg vil ikke have et kort med</label>
+                            <label class="p" for="add-card">Jeg vil ikke have et kort med</label>
                         </div>
                     </form>
+                </div>
+            </div>
 
+            <div class="build-basket__step-3-wrapper">
+                <div class="build-basket--headings">
+                    <h2>Step 3</h2>
+                    <h3>Tilføj bemærkning</h3>
+                </div>
+                <div class="build-basket--card-area">
+                    <form class="build-basket__step-2__form">
+                        <label class="p" for="remark">Tilføj din bemærkning (max. 400 tegn)</label>
+                        <textarea id="remark" class="card-textarea" maxlength="400" name="remark" placeholder="Her kan du skrive, hvis der er noget information vi skal vide om f.eks. allergener eller præferencer (f.eks. vegansk chokolade) "></textarea>
+                        <div class="step-2__check-box-flex">
+                            <input type="checkbox" name="add-remark">
+                            <label class="p" for="add-remark">Jeg har ikke en bemærkning</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="build-basket__step-4-wrapper">
+                <div class="build-basket--headings">
+                    <h2>Step 4</h2>
+                    <h3>Køb eller gem din kurv</h3>
                 </div>
             </div>
 

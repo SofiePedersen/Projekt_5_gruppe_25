@@ -78,3 +78,50 @@
 .active-selected {
     font-weight: 500;
 }
+
+.build-basket__step-2-wrapper,
+.build-basket__step-3-wrapper,
+.build-basket__step-4-wrapper {
+    margin-top: 7%;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+}
+
+.build-basket--card-area {
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    padding: 7%;
+    padding-top: 0;
+}
+
+.form-container label {
+    font-size: 16px;
+}
+
+.card-textarea {
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 100%;
+    height: 225px;
+    margin-top: 5%;
+    margin-bottom: -4px;
+    padding: 5%;
+    font-style: italic;
+}
+
+.card-textarea::placeholder {
+    opacity: 75%;
+    color: #465048;
+}
+
+.step-2__check-box-flex {
+    margin-top: 7%;
+}
+
+
+
+
