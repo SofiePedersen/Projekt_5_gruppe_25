@@ -1,0 +1,509 @@
+.section__product-info {
+    padding: 7%;
+}
+
+.bread-crumbs-bold {
+    font-weight: 500;
+}
+
+.bread-crumb-box {
+    margin-bottom: 7%;
+}
+
+
+.section__category-gift__product-image img {
+    width: 100%;
+    border-radius: 7px;
+    background-color: #465048;
+}
+
+.section__category-gift__product-image__circles {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.section__category-gift__product-image--img-box {
+    background-image: url('/generated_images/konfirmand_stor.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 650px;
+    border-radius: 7px;
+    padding-bottom: 5%;
+}
+
+.circle--current,
+.circle--next {
+    aspect-ratio: 1 / 1;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 5%;
+}
+
+.section__giftbasket--small,
+.section__giftbasket--one {
+    text-decoration: none;
+}
+
+.circle--current {
+    border: 2px solid #fff;
+    background-color: #C0B283;
+}
+
+.circle--next {
+    background-color: #465048;
+    border: 2px solid #C0B283;
+}
+
+.circle--next:last-of-type {
+    margin-right: 0;
+}
+
+
+.section__my-basket__info {
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    margin-top: 7%;
+}
+
+.section__my-basket__info--title {
+    padding: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.content--flexbox {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #C0B283;
+    padding: 7%;
+}
+
+.content--text-flex {
+    padding: 7%;
+    padding-top: 4%;
+}
+
+.content--flexbox img {
+    margin-right: 7%;
+}
+
+.section__my-basket__info--content__wrapper {
+    background-color: #F8EFE2;
+    border-bottom: 2px solid #C0B283;
+    padding: 7%;
+}
+
+.section__my-basket__info--content__card {
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.section__my-basket__info--content__card:last-of-type {
+    margin-bottom: 0%;
+}
+
+.content-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content--product-image--1,
+.content--product-image--2,
+.content--product-image--3,
+.content--product-image--4 {
+    width: 100px;
+    height: 100px;
+    background-color: #465048;
+    
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    margin-right: 7%;
+}
+
+.section__my-basket__info--card__title {
+    display: flex;
+    align-items: center;
+    padding: 7%;
+}
+
+.section__my-basket__info--card__title img {
+    margin-right: 7%;
+}
+
+.form-container {
+    padding: 7%;
+    padding-top: 0;
+}
+
+.form-container label {
+    font-size: 16px;
+}
+
+.card-textarea {
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 100%;
+    height: 225px;
+    margin-top: 5%;
+    margin-bottom: -4px;
+    padding: 5%;
+    font-style: italic;
+}
+
+.card-textarea::placeholder {
+    opacity: 75%;
+    color: #465048;
+}
+
+.section__my-basket button.cta-btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.basket--bold {
+    font-weight: 500;
+}
+
+.section__my-basket__info--bottom-btns {
+    display: flex;
+    background-color: #465048;
+    border-top: 2px solid #C0B283;
+}
+
+.section__my-basket__bottom-btns {
+    padding: 7%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__my-basket__bottom-btns:last-of-type {
+    border-left: 2px solid #C0B283;
+}
+
+.section__my-basket__bottom-btns p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4%;
+}
+
+.section__my-basket__bottom-btns img {
+    width: 30px;
+}
+
+/* GAVEKURVE - KORT */
+.section__giftbasket-wrapper {
+    padding: 7%;
+    background-color: #F1EDE6;
+}
+
+.section__giftbasket-wrapper:last-of-type {
+    padding-top: 0;
+}
+
+.section-5__info-box.gift-basket {
+    padding-top: 0%;
+}
+
+.section__giftbasket--titles {
+    margin-bottom: 7%;
+}
+
+.section__giftbasket--cards {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.section__giftbasket--one {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.section__giftbasket--one__text-box,
+.section__giftbasket--two__text-box {
+    padding: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section__giftbasket--one p {
+    font-size: 16px;
+}
+
+.section__giftbasket--one img{
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 2px solid #C0B283;
+}
+
+.section__giftbasket--two {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.section__giftbasket--two p {
+    font-size: 10px;
+    line-height: normal;
+}
+
+.section__giftbasket--small {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #C0B283;
+    border-radius: 7px;
+    height: 48%;
+}
+
+.section__giftbasket--small img {
+    height: 75%;
+    object-fit: cover;
+    
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 2px solid #C0B283;
+}
+
+.section__product-info--wrapper:last-of-type {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+@media only screen and (min-width: 768px) {
+    .form-container label {
+        font-size: 18px;
+    }
+
+    .card-textarea::placeholder {
+        font-size: 18px;
+    }
+
+    .section__my-basket {
+        padding: 14%;
+        padding-top: 7%;
+    }
+
+    .section__my-basket__info--card__title img,
+    .content--flexbox img,
+    .content--bottom img {
+        width: 10%;
+    }
+
+    .section__my-basket__bottom-btns p {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    .section__my-basket__bottom-btns img {
+        width: 35px;
+    }
+
+    .content--product-image--1,
+    .content--product-image--2,
+    .content--product-image--3,
+    .content--product-image--4 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .section__giftbasket--two__text-box p,
+    .section__giftbasket--two__text-box--2 p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+   
+    .section__category-gift {
+        padding: 4% 7% 7% 7%;
+    }
+
+    .bread-crumb-box {
+        margin-bottom: 4%;
+    }
+
+    .desktop-wrapper {
+        display: flex;
+    }
+
+    .section__category-gift__product-image {
+        width: 50%;
+    }
+
+    .section__my-basket__info {
+        width: 50%;
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .section__category-gift__product-image--img-box {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+        width: 100%;
+        height: 100%;
+        border: 2px solid #C0B283;
+        border-right: none;
+    }
+
+
+    .content-name, 
+    .content-brand, 
+    .content-amount {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section__my-basket__title {
+        padding: 5%;
+        padding-left: 4%;
+    }
+
+    .section__my-basket__info--title {
+        padding: 4%;
+    }
+
+    .content--flexbox,
+    .content--bottom {
+        padding: 2% 4%;
+    }
+
+    .content--flexbox span,
+    .content--bottom span,
+    .section__my-basket__info--card__title span {
+        font-size: 18px;
+    }
+
+    .section__my-basket__info--content__wrapper {
+        padding: 3% 4%;
+    }
+
+    .section__my-basket__info--content__card {
+        margin-bottom: 3%;
+    }
+
+    .content--product-image--1,
+    .content--product-image--2,
+    .content--product-image--3,
+    .content--product-image--4 {
+        margin-right: 4%;
+        width: 70px;
+        height: 70px;
+    }
+
+    .section__my-basket__info--card__title {
+        padding: 2% 4%;
+    }
+
+    .form-container label {
+        font-size: 16px;
+    }
+
+    .card-textarea {
+        padding: 2.5%;
+        margin-top: 2.5%;
+        height: 125px;
+    }
+
+    .form-container {
+        padding: 5%;
+        padding-top: 0;
+    }
+
+    .section__my-basket__info--card__title p,
+    .content--flexbox p,
+    .section__my-basket__info--title p {
+        font-size: 20px;
+    }
+
+    .section__my-basket__info--card__title img,
+    .content--flexbox img,
+    .content--bottom img {
+        width: 7%;
+    }
+
+    .content--flexbox img {
+        margin-right: 4%;
+    }
+
+    .card-textarea::placeholder {
+        font-size: 16px;
+    }
+
+    .section__my-basket__info--card__title img {
+        margin-right: 4%;
+    }
+
+    .section__my-basket__bottom-btns {
+        padding: 3%;
+    }
+
+    .section__my-basket__bottom-btns p {
+        font-size: 18px;
+    }
+
+    .section__my-basket__bottom-btns img {
+        width: 30px;
+    }
+
+    .section__my-basket__info--bottom-btns {
+        border-bottom-right-radius: 6px;
+    }
+
+    .section__giftbasket--one {
+        width: 33%;
+    }
+
+    .section__giftbasket--cards {
+        gap: 2%;
+    }
+
+    .section__giftbasket--small {
+        height: 100%;
+        width: 50%;
+    }
+
+    .section__giftbasket--small img {
+        height: 100%;
+    }
+
+    .section__giftbasket--two {
+        display: flex;
+        flex-direction: row;
+        width: 66%;
+        gap: 3%;
+    }
+
+    .section__giftbasket--two p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .section__giftbasket-wrapper {
+        background-color: #F1EDE6;
+        padding: 7%;
+    }
+}
