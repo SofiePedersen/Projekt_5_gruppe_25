@@ -4,8 +4,6 @@
     justify-content: space-between;
 }
 
-
-
 .header__logo-type {
     width: 130px;
 }
@@ -26,6 +24,8 @@
 .small-header-burgermenu {
     display: flex;
     flex-direction: row-reverse;
+    width:40%;
+    justify-content: space-between;
 }
 
 .small-header-burgermenu img {
@@ -129,7 +129,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-
+    .small-header-burgermenu {
+        width:20%;
+    }
 }
 
 
@@ -146,5 +148,9 @@
 
     .burger-menu-content {
         display: none;
+    }
+
+    .small-header-burgermenu {
+        width:15%;
     }
 }
