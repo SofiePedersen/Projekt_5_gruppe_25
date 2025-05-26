@@ -132,7 +132,7 @@
     color: #465048;
 }
 
-.section__my-basket button.cta-btn {
+.section__my-basket a.cta-btn {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;

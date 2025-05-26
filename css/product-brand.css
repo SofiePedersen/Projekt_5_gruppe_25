@@ -93,8 +93,10 @@
     padding: 5%;
 }
 
-.section__giftbasket--product p {
+.section__giftbasket--product .section__giftbasket--product__text-box p, a {
     font-size: 16px;
+    text-decoration: none;
+
 }
 
 .section__giftbasket--product img{
@@ -103,7 +105,7 @@
     border-bottom: 2px solid #C0B283;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) { 
     /* HERO */
 
     .section__giftbasket--two__text-box p,
