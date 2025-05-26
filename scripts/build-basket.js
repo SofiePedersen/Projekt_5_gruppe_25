@@ -189,6 +189,7 @@ const categorySkincare = document.getElementById('categorySkincare');
 const categoryDrinks = document.getElementById('categoryDrinks');
 const categoryArt = document.getElementById('categoryArt');
 const categoryWaxes = document.getElementById('categoryWaxes');
+const selectedProductList = document.getElementById('selectedProductList');
 
 
 // QuerySelectorAll tager fat i alle elementer med classen card-box
@@ -300,16 +301,17 @@ function createCard(filteredProducts, cardBoxIndex){
     }
 }
 
-// const showarray = document.getElementById("showarray");
+const productsInBasket = [];
 
-// const productsInBasket = []
+function addToBasket(newItem) {
+    productsInBasket.push(newItem);
+    console.log(productsInBasket);
 
-// function addToBasket(newItem){
-//     for
-//     productsInBasket.push(newItem);
-//     console.log(productsInBasket);
-//     showarray.innerHTML = productsInBasket;
-    
-// }
+    let html = '';
 
+    for (let i = 0; i < productsInBasket.length; i++) {
+        html += `<p>${productsInBasket[i]}</p>`;
+    }
+    selectedProductList.innerHTML = html;
+}
 

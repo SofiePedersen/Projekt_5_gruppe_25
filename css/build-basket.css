@@ -122,6 +122,38 @@
     margin-top: 7%;
 }
 
+.section__my-basket__info--bottom-btns {
+    display: flex;
+    background-color: #465048;
+    border-top: 2px solid #C0B283;
+}
 
+.section__my-basket__bottom-btns {
+    padding: 7%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__my-basket__bottom-btns:last-of-type {
+    border-left: 2px solid #C0B283;
+}
+
+.section__my-basket__bottom-btns p {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 4%;
+}
+
+.section__my-basket__bottom-btns img {
+    width: 30px;
+}
+
+.build-basket--basket-content {
+    padding: 7%;
+}
 
 
