@@ -256,7 +256,7 @@
     align-items: center;
 }
 
-.section-7__brands__text p{
+.section-7__brands__text a{
     color: #F1EDE6;
     font-size: 28px;
     font-weight: 400;
