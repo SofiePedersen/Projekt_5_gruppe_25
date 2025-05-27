@@ -128,6 +128,11 @@
     margin-bottom: 0%;
 }
 
+#search__ikon {
+    display: none;
+}
+
+
 @media only screen and (min-width: 768px) {
     .small-header-burgermenu {
         width:20%;
@@ -152,5 +157,9 @@
 
     .small-header-burgermenu {
         width:15%;
+    }
+    
+    #search__ikon {
+        display: block;
     }
 }
